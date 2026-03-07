@@ -295,7 +295,7 @@ mark {
 @media (max-width: 600px) {
   body {
     font-family: serif;
-    margin: 0 1.8rem;
+    margin: 0 2.5rem;
     max-width: 100%;
   }
 }
