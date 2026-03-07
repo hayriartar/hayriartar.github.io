@@ -1,0 +1,26 @@
+---
+layout: default
+title: posts
+---
+
+
+
+
+
+<h1> All Posts </h1>
+
+<ul class="post-list">
+  {% assign total = site.posts | size %}
+
+  {% for post in site.posts %}
+    {% assign raw = total | minus: forloop.index0 %}
+    {% assign num = raw | prepend: "000" | slice: -3, 3 %}
+
+    <li>
+      <span class="post-num">{{ num }}.</span>&nbsp;
+      <a href="{{ post.url | relative_url }}">
+        {% unless post.title == "" %}{{ post.title }}{% endunless %}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

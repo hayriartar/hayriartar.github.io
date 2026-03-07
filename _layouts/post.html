@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+
+
+<header class="post-header{% if page.categories contains 'journal' %} journal-header{% endif %}">
+
+<span class="post-date">
+  {{ page.date | date: "%d %b %Y" }}
+</span>
+
+{% unless page.categories contains "journal" %}
+<h2 class="post-heading">{{ page.title }}</h2>
+{% endunless %}
+
+</header>
+ 
+<article class="post-content post-only">
+   {{ content }}
+   
+   {% if page.categories or page.tags %}
+  <div class="post-meta post-only">
+
+   {% if page.categories and page.categories.size > 0 %}
+      {% for category in page.categories %}
+        <div class="post-categories">
+          <a href="/category/{{ category | slugify }}/" class="post-category-link">
+            {{ category }}
+          </a>
+        </div>
+      {% endfor %}
+    {% endif %}
+
+    {% if page.tags and page.tags.size > 0 %}
+      {% for tag in page.tags %}
+        <div class="post-tags">
+          <a href="/tag/{{ tag | slugify }}/" class="post-tag">
+            #{{ tag }}
+          </a>
+        </div>
+      {% endfor %}
+    {% endif %}
+
+  </div>
+{% endif %}
+
+</article>
+
+<a class="back-top" href="#">↑</a>
+
+<nav class="post-navigation">
+
+<div class="nav-left">
+  <p class="label">Previous</p>
+  {% if page.previous %}
+    <a class="prev-post" href="{{ page.previous.url }}"> {{ page.previous.title }}</a>
+  {% endif %}
+</div>
+
+
+  
+</nav>

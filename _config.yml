@@ -1,0 +1,7 @@
+title: Hayri Artar
+description: Pure Fair Intention
+baseurl: ""
+url: "https://hayriartar.github.io"
+markdown: kramdown
+plugins:
+  - jekyll-feed

@@ -1,0 +1,293 @@
+html { overflow-y: scroll; font-size: 16px; font-family: Georgia, serif;}
+html, body {   background-color: #faf9f5;    }
+
+
+/* -------------------- GLOBAL ATTS -------------------- */
+
+::selection { background-color:rgba(255, 239, 68, 0.4); }
+
+strong, b { color:#000; font-weight: 400; }
+
+small {  }
+
+h1 {
+  font-size: 1rem;
+  margin-top:0;
+  font-weight: 400;
+  color: #222;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #222;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #222;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {   }
+a:focus {   }
+
+img {
+  display: block;
+  max-width:48ch;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+p:has(a) {
+  position: relative;
+}
+
+p:has(a)::before {
+  content: "↗";
+  position: absolute;
+  left: -2ch;   
+  top: 0;
+  font-weight: 400;
+}
+
+
+
+/* -------------------- BODY -------------------- */
+
+body {
+  
+  max-width: 54ch;
+  margin: auto;
+  color: #1a1a1a;
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* -------------------- HEADER -------------------- */
+
+body > header { 
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding:10vh 0 0 0ch;
+}
+
+.baslik {  }
+.baslik a { }
+
+.motto {
+  margin-top: 0;
+  color: #777;
+  font-style: italic;
+  font-size: .9rem;
+  letter-spacing: 0.02em;
+  text-decoration: underline;
+  text-decoration-color:  rgba(255, 239, 68, 0.4); 
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: .5em;
+  text-underline-offset: -.25em;
+}
+
+
+
+/* -------------------- MAIN -------------------- */
+
+main {   margin-top:10vh;  }
+
+
+
+/* -------------------- HOME -------------------- */
+
+.post-list {
+  margin-top: 0;
+  padding:0;
+  padding-bottom: 10em;
+  list-style: none;
+}
+
+.post-list li {  }
+.post-list  a:hover {   }
+
+.post-num { color: #777; font-size: .97rem; font-family: monospace; }
+
+.navbar { display: flex;  flex-direction: column; margin-bottom:50px; }
+.navbar a { padding: 2px 0px 4px 0px; color: #777; font-size: 1rem;  }
+.navbar a:hover { color: #222;   }
+.navbar li { list-style-type: none; }
+
+
+/* -------------------- POST ------------------------------- */
+
+.post-header h2 {margin-top: 0px; margin-bottom: 30px; }
+
+.journal-header {  margin-bottom: 30px; }
+
+.post-date, .journal-header .post-date {
+  color: #777;
+  font-size:.9rem;
+  font-family: monospace;
+}
+
+.post-content > :first-child { margin-top: 0; }
+
+.post-only .caption  {  display: block; margin-top: -29px; font-size: .88rem; color: #222; }
+
+.post-content a {
+  color: #333;
+  text-decoration: underline;
+  text-decoration-color:  rgba(255, 239, 68, 0.4); 
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: .5em;
+  text-underline-offset: -.25em;
+  transition: color 0.2s ease;
+}
+.post-content a:hover { color: #551a8b; }
+
+.post-content img { margin-bottom: 40px; }
+
+.post-categories, .post-tags {
+  margin: 0px 10px 10px 0; 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0px 14px;
+  border-radius: 3px; 
+  border: 1px solid #eee;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  color: #333;
+  background: rgba(255, 239, 68, 0.4);
+  transition: all 0.2s ease;
+}
+
+.post-category-link,
+.post-tag,
+.post-category-link:link,
+.post-tag:link,
+.post-category-link:visited,
+.post-tag:visited,
+.post-category-link:active,
+.post-tag:active {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.post-only .post-categories,
+.post-only .post-tags { margin-top: 50px; margin-bottom: 50px; }
+
+.back-top { font-size: .9rem; }
+
+.post-navigation {
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 2em;
+  margin-bottom: 5em;
+  padding-top: 0.2em;
+  padding-bottom: 0em;
+}
+
+.label { font-size: .9rem; color: #777; display: block; margin-bottom: 0; text-decoration: none; }
+
+.nav-left { text-align: left; }
+
+.nav-right { text-align: right; }
+
+
+
+
+
+/* -------------------- ABOUT -------------------- */
+
+.pure {
+  color:black;
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-color:  rgba(255, 239, 68, 0.4); 
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: .5em;
+  text-underline-offset: -.25em;
+}
+
+.about {margin-top:0px; }
+
+/* -------------------- KOD BLOKLARI -------------------- */
+
+pre {
+  background-color: #f5f5f5;
+  margin-bottom: 1.2em;
+  padding: 1em;
+  overflow-x: auto;
+  font-family: monospace;
+  font-size: 0.9em;
+  line-height: 1.4;
+  border-radius: 4px;
+}
+
+code {
+  background-color: #f5f5f5;
+  padding: 0.2em 0.4em;
+  font-family:  monospace;
+  font-size: 0.9em;
+  border-radius: 3px;
+  word-break: break-word;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+
+
+/* -------------------- BLOCKQUOTE -------------------- */
+
+blockquote {
+  margin: 40px 0;
+  padding-left: 1em;
+  color: #111;
+  font-style: italic;
+  border-left: 4px solid rgba(255, 239, 68, 0.4);
+}
+
+
+
+/* -------------------- TYPOGRAPHY BLOCK ELEMENTS -------------------- */
+
+figure {
+  margin: 2em 0;
+}
+
+figcaption {
+  margin-top: 0.5em;
+  font-size: 0.85rem;
+  color: #777;
+  line-height: 1.5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2.5em 0;
+  font-size: 0.95rem;
+}
+
+
+/* Inline highlight  */
+mark {
+  background: rgba(255, 239, 68, 0.4);
+  padding: 0.1em 0.25em;
+}

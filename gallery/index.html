@@ -1,0 +1,30 @@
+---
+layout: gallery
+title: Gallery
+permalink: /gallery/
+---
+
+<div class="photo-grid">
+
+{% assign photos = site.posts | where:"format","photo" %}
+
+{% for post in photos %}
+
+{% assign html = post.content | markdownify %}
+{% assign img = html | split:'<img src="' | last | split:'"' | first %}
+{% assign cap = html | split:'<span class="caption">' | last | split:'</span>' | first %}
+
+<a class="photo-item" href="{{ post.url }}">
+  <img src="{{ img }}" loading="lazy" decoding="async">
+  <span class="photo-caption">{{ cap }}</span>
+</a>
+
+{% endfor %}
+
+</div>
+
+<br>
+
+<a class="back-home" href="#">↑</a>
+
+<br><br><br>
