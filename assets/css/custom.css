@@ -291,3 +291,10 @@ mark {
   background: rgba(255, 239, 68, 0.4);
   padding: 0.1em 0.25em;
 }
+
+@media (max-width: 600px) {
+  body {
+    margin: 0 1.5rem;
+    max-width: 100%;
+  }
+}
