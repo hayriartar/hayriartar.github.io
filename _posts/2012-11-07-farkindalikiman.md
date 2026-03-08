@@ -46,9 +46,9 @@ Ben müslümanım diyen kimseye diyemem ve demiyorum ki sen imansızsın zira İ
 "Herhangi bir kimse din kardeşine 'Ey Kafir' derse muhakkak ikisinden biri o küfür kelimesiyle döner, şayet dediği gibiyse. Yok değilse o kelime kendisine döner."&nbsp; (Müslim)  
   
 Ama işte öyle kolay değil imanlı kalabilmek, ve öyle son nefesini vermek. Nitekim başka bir hadiste Ebu Sufyan (R) dedi ki: Ben Cebir'den duydum, şöyle diyordu: 
-Ben Nebiy(SAV)den işittim şöyle buyuruyordu: "Şüphesiz ki namazı terk etmek, kişi ile şirk ve küfrün arasında bulunmaktadır."*  
+Ben Nebiy(SAV)den işittim şöyle buyuruyordu: "Şüphesiz ki namazı terk etmek, kişi ile şirk ve küfrün arasında bulunmaktadır."
 
-* Bunun manası şudur; kişiyi kafir olmaktan meneden namazı bırakmamış olmasıdır. Onu terk ettiği zaman kendisiyle şirk arasında bir mani kalmaz da belki kendisi küfre dahil olur. (Nevevi)*&nbsp; &nbsp;(Müslim)  
+-Bunun manası şudur; kişiyi kafir olmaktan meneden namazı bırakmamış olmasıdır. Onu terk ettiği zaman kendisiyle şirk arasında bir mani kalmaz da belki kendisi küfre dahil olur.- (Nevevi)&nbsp; &nbsp;(Müslim)
   
 Aslında bu konunun konuşulacak bir çok&nbsp; yönü var. İşte sohbetler de bu yüzden var. Var, olmasına da bu sohbetler, sohbetlerde dahi iman konusuna yeterli özen ve önem gösterilmemekte. 
 Önce iman, en çok iman, devamlı iman anlatılması gerekirken en az bahsi geçen iman oluyor. İnsanlara ibadeti, hayrı anlatıyorsunuz da, imanı anlatın en çok da farkına varsınlar. 
