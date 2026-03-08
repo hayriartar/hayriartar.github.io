@@ -70,8 +70,5 @@ Son olarak yine bir başka hadisle bitirelim. Enes(R) şöyle dedi: Rasulullah(S
 "Kimde şu üç şey bulunursa imanın tadını bulmuştur; sevdiğini ancak Allah için seven ve 
 Rasul'u kendisine başkalarından daha sevgili olan ve Allah kendisini küfürden kurtardıktan sonra ateşe atılması kendisine tekrar küfre dönmekten daha sevimli gelen."  
   
-Allah teala bizleri imanın tadını bulanlardan eylesin. Amin. Esselamu Aleyke..  
-  
-  
-<span style="font-size: x-small;">Dip not:&nbsp; Bu başlığın bir yazı dizisi gibi olmasını ve sıradaki konunun namaz olmasını düşünüyorum ama zaman ne gösterir bilmiyorum.</span>
+Allah teala bizleri imanın tadını bulanlardan eylesin. Amin..
 
