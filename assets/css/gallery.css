@@ -46,7 +46,10 @@ body {
 
 
 
-body > header { 
+body > header {
+  font-family: Georgia, serif;
+  max-width: 54ch;
+  margin: auto;
   display: flex;
   flex-shrink: 0;
   flex-direction: column;
@@ -61,6 +64,7 @@ body > header {
   font-style: italic;
   font-size: .9rem;
   letter-spacing: 0.02em;
+  font-family: Georgia, serif;
 }
 
 
