@@ -4,4 +4,6 @@ baseurl: ""
 url: "https://hayriartar.github.io"
 markdown: kramdown
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
+paginate: 7
+paginate_path: "/page:num/"

@@ -3,20 +3,73 @@ layout: default
 title: Ana Sayfa
 ---
 
-<ul class="post-list">
-  {% assign total = site.posts | size %}
+<div class="post-list">
+  {% for post in paginator.posts %}
 
-  {% for post in site.posts %}
-    {% assign raw = total | minus: forloop.index0 %}
-    {% assign num = raw | prepend: "000" | slice: -3, 3 %}
+  <article class="post-item{% if post.categories contains 'journal' %} is-journal{% endif %}">
 
-    <li>
-       <span class="post-num">{{ num }}.</span>&nbsp;
-      <a href="{{ post.url | relative_url }}">
-        {% unless post.title == "" %}{{ post.title }}{% endunless %}
+    {% if post.categories contains "journal" %}
+      <a href="{{ post.url | relative_url }}" class="journal-date">
+        {{ post.date | date: "%d %b %Y" }}
       </a>
-    </li>
-  {% endfor %}
-</ul>
 
-  {% include navbar.html %}
+      <div class="post-content">
+        {{ post.content }}
+      </div>
+
+    {% elsif post.categories contains "blog" %}
+      <a href="{{ post.url | relative_url }}" class="post-link">
+        <span class="post-date">
+          {{ post.date | date: "%d %b %Y" }}
+        </span>
+        <h2 class="post-title">
+          {{ post.title | default: post.slug }}
+        </h2>
+      </a>
+
+      <div class="post-content">
+        {{ post.content | split: "</p>" | first | append: "</p>" }}
+      </div>
+
+      <a href="{{ post.url | relative_url }}" class="read-more">
+        Devamını oku →
+      </a>
+
+    {% else %}
+      <a href="{{ post.url | relative_url }}" class="post-link">
+        <span class="post-date">
+          {{ post.date | date: "%d %b %Y" }}
+        </span>
+        <h2 class="post-title">
+          {{ post.title | default: post.slug }}
+        </h2>
+      </a>
+
+      <div class="post-content">
+        {{ post.content }}
+      </div>
+    {% endif %}
+
+  </article>
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+<nav class="pagination">
+  <div class="pagination-left">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="page-arrow">←</a>
+    {% endif %}
+  </div>
+
+  <div class="pagination-center">
+    {{ paginator.page }} / {{ paginator.total_pages }}
+  </div>
+
+  <div class="pagination-right">
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="page-arrow">→</a>
+    {% endif %}
+  </div>
+</nav>
+{% endif %}

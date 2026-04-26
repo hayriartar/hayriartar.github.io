@@ -1,19 +1,5 @@
 <div class="navbar">
-
-  <a href="{{ '/about/' | relative_url }}"
-     class="{% if page.url == '/about/' %}active{% endif %}">
-     /about
-  </a>
-
-  <a href="{{ '/library/' | relative_url }}"
-     class="{% if page.url == '/library/' %}active{% endif %}">
-     /library
-  </a>
-
-   <a href="{{ '/gallery/' | relative_url }}"
-     class="{% if page.url == '/gallery/' %}active{% endif %}">
-     /gallery
-  </a>
-
-
+  <a href="{{ '/library/' | relative_url }}">Library</a>
+  <a href="{{ '/archive/' | relative_url }}">Archive</a>
+  <a href="{{ '/about/' | relative_url }}">About</a>
 </div>

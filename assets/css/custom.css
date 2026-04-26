@@ -1,59 +1,64 @@
-html { overflow-y: scroll; font-size: 16px; }
-html, body {   background-color: #faf9f5;    }
+html { overflow-y: scroll; font-size: 15px;}
+html, body { background-color: #fefefe; }
 
 
 /* -------------------- GLOBAL ATTS -------------------- */
 
+
 ::selection { background-color:rgba(255, 239, 68, 0.4); }
 
-strong, b { color:#000; font-weight: 400; }
+strong, b { color:#000; font-weight: 600; }
 
 small {  }
 
 h1 {
-  font-size: 1rem;
-  margin-top:0;
-  font-weight: 400;
-  color: #222;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #000;
 }
 
 h2 {
   font-size: 1rem;
-  font-weight: 400;
-  color: #222;
+  line-height: 1.6;
+  font-weight: 600;
+  color: #000;
 }
 
 h3 {
   font-size: 1rem;
-  font-weight: 400;
-  color: #222;
+  line-height: 1.6;
+  font-weight: 600;
+  color: #000;
 }
 
 a {
-  color: #222;
+  color: #000;
   text-decoration: none;
   transition: color 0.2s ease;
 }
+
 a:hover {   }
+
 a:focus {   }
 
 img {
   display: block;
-  max-width:48ch;
+  max-width: 48ch;
   margin: 10px 0;
   border-radius: 10px;
 }
 
-p:has(a) {
+p:has(a), h2:has(a) {
   position: relative;
 }
 
-p:has(a)::before {
+p:has(a)::before,  h2:has(a)::before {
   content: "↗";
   position: absolute;
   left: -2ch;   
   top: 0;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 
@@ -61,13 +66,15 @@ p:has(a)::before {
 /* -------------------- BODY -------------------- */
 
 body {
-  font-family: Georgia, serif;
-  max-width: 54ch;
-  margin: auto;
-  color: #1a1a1a;
+  max-width: min(48ch, 90vw);
+  margin: 0 auto;
+  color: #222;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.75;
   font-weight: 400;
+  text-underline-offset: 0.38em;
+  text-decoration-thickness: 1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -77,83 +84,175 @@ body {
 /* -------------------- HEADER -------------------- */
 
 body > header { 
+  margin-top:15vh; 
   display: flex;
-  flex-shrink: 0;
-  flex-direction: column;
-  padding:10vh 0 0 0ch;
-  
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .baslik {  }
-.baslik a { }
+.baslik a { padding-top: 2px; padding-bottom: 2px; font-size: 1.1rem; font-weight: 600; }
+
+.navbar {  }
+.navbar a { padding: 2px 5px 4px 5px; color: #777; font-size: 1rem; border: 1px solid #fefefe; order-radius:12px; }
+.navbar a:hover { color: #666; border-bottom: 1px solid #ccc; background: #fff; }
 
 .motto {
-  margin: 0;
+  margin-top: -0.3em;
   color: #777;
   font-style: italic;
   font-size: .9rem;
   letter-spacing: 0.02em;
-  text-decoration: underline;
-  text-decoration-color:  rgba(255, 239, 68, 0.4); 
-  text-decoration-skip-ink: none;
-  text-decoration-thickness: .5em;
-  text-underline-offset: -.25em;
 }
 
 
 
 /* -------------------- MAIN -------------------- */
 
-main {   margin-top:12vh;  }
+main { margin: 0 auto; margin-top:11vh; }
 
 
 
 /* -------------------- HOME -------------------- */
 
-.post-list {
-  margin: 0;
-  padding:0;
-  list-style: none;
+.post-item {
+  margin-bottom: 3rem;
+  padding-bottom: 4rem;
+  position: relative; 
 }
 
-.post-list li {  }
-.post-list  a:hover {   }
+.post-date {
+ color: #777;
+ font-size: .93rem;
+}
 
-.post-num { color: #777; font-size: .97rem; font-family: monospace; }
+.post-link {  display: block;  transition: opacity 0.2s ease; }
+.post-link:hover { opacity: 0.75; }
 
-.navbar {  margin-top:12vh; display: flex;  flex-direction: column; margin-bottom:50px; }
-.navbar a { padding: 2px 0px 4px 0px; color: #777; font-size: 1rem;  }
-.navbar a:hover { color: #222;   }
-.navbar li { list-style-type: none; }
+.post-title { margin: 0 0 30px 0; }
+
+.journal-date { display: block;  margin-bottom:30px; color: #000;  font-weight: 600; }
+
+
+.post-item > .post-date {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.is-journal > .post-date {
+ font-weight: 600;
+ color: #000;
+}
+
+.post-content > p:first-child:not(:has(img)) {
+  margin-top: -10px;
+}
+
+.read-more {
+  float: right;
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 999px; /* tam yuvarlak */
+  border: 1px solid #ccc;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  color: #333;
+  transition: all 0.2s ease;
+}
+
+.read-more:hover {
+  background: #fff;
+}
+
+.post-item::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.pagination {
+  ax-width: 48ch;
+  margin: 60px auto 80px auto;
+  padding: 0 0px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+}
+
+
+.pagination-left {
+  justify-self: start;
+}
+
+
+.pagination-center {
+  justify-self: center;
+  font-size: 0.9rem;
+  opacity: 0.9;
+  letter-spacing: 0.08em;
+}
+
+
+.pagination-right {
+  justify-self: end;
+}
+
+
+.page-arrow {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.page-arrow:hover {
+  background: #fff;
+  order-color: #fff;
+}
+
 
 
 /* -------------------- POST ------------------------------- */
 
-.post-header h1 {font-size:1.1rem; margin-top: 0px; margin-bottom: 30px; font-weight: bold; }
+.post-heading { margin: 0 0 30px 0; }
 
-.journal-header {  margin-bottom: 0px; }
+.journal-header {  margin-bottom: 30px; }
 
-.post-date, .journal-header .post-date {
-  color: #777;
-  font-size:.9rem;
+.post-header { position: relative; }
+
+.journal-header .post-date {
+  font-weight: 600;
+  color: #000;
 }
+
+.post-content .caption  {  font-size: .88rem; opacity:.75; }
+
+.post-only .caption  {  display: block; margin-top: -29px; font-size: .88rem; opacity:.75; }
 
 .post-content > :first-child { margin-top: 0; }
 
-.post-only .caption  {  display: block; margin-top: -29px; font-size: .88rem; color: #222; }
+.post-content p {  }
 
 .post-content a {
-  color: #333;
+  color: #1a0dab;
   text-decoration: underline;
-  text-decoration-color:  rgba(255, 239, 68, 0.4); 
-  text-decoration-skip-ink: none;
-  text-decoration-thickness: .5em;
-  text-underline-offset: -.25em;
   transition: color 0.2s ease;
 }
 .post-content a:hover { color: #551a8b; }
 
-.post-content img { margin-bottom: 40px; }
+.post-header + .post-content img { margin-bottom: 40px; }
 
 .post-categories, .post-tags {
   margin: 0px 10px 10px 0; 
@@ -184,21 +283,19 @@ main {   margin-top:12vh;  }
 }
 
 .post-only .post-categories,
-.post-only .post-tags { margin-top: 50px; margin-bottom: 50px; }
-
-.back-top { font-size: .9rem; }
+.post-only .post-tags { margin-top: 50px; }
 
 .post-navigation {
   display:flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 2em;
+  margin-top: 5em;
   margin-bottom: 5em;
   padding-top: 0.2em;
   padding-bottom: 0em;
 }
 
-.label { font-size: .9rem; color: #777; display: block; margin-bottom: 0; text-decoration: none; }
+.label { color: #777; display: block; margin-bottom: 0.3em; text-decoration: underline; }
 
 .nav-left { text-align: left; }
 
@@ -206,21 +303,43 @@ main {   margin-top:12vh;  }
 
 
 
+/* -------------------- ARCHIVE -------------------- */
+
+.archive-list {
+  margin-top: 2vh;
+  padding:0;
+  padding-bottom: 10em;
+  list-style: none;
+}
+
+.archive-list li { list-style-type: disc; }
+
+.archive-list .sene {
+  display: inline-block;
+  margin-bottom: 1em;
+  color: #000;
+  font-weight: 600;
+}
+
+.archive-list .sene:not(:first-child) {  margin-top: 1em; }
+
+.archive-list  a:hover {   }
+
 
 
 /* -------------------- ABOUT -------------------- */
 
 .pure {
-  color:black;
-  font-weight: 400;
   text-decoration: underline;
+  color:black;
+  font-weight: 600;
   text-decoration-color:  rgba(255, 239, 68, 0.4); 
   text-decoration-skip-ink: none;
   text-decoration-thickness: .5em;
   text-underline-offset: -.25em;
 }
 
-.about {margin-top:0px; }
+
 
 /* -------------------- KOD BLOKLARI -------------------- */
 
@@ -289,14 +408,4 @@ table {
 mark {
   background: rgba(255, 239, 68, 0.4);
   padding: 0.1em 0.25em;
-}
-
-@media (max-width: 600px) {
-  body {
-    font-family: serif;
-    margin: 0 2.2rem;
-    max-width: 100%;
-  }
-
-  .post-content img { max-width: 80vw; }
 }
