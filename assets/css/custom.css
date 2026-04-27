@@ -169,8 +169,8 @@ font-size: 1rem;
   padding: 8px 14px;
   border-radius: 999px; /* tam yuvarlak */
   border: 1px solid #ccc;
- 
-  letter-spacing: 0.04em;
+ font-size:0.9rem;
+  etter-spacing: 0.04em;
   color: #333;
   transition: all 0.2s ease;
 }
@@ -320,11 +320,16 @@ font-size: 1rem;
 .archive-list {
   margin-top: 2vh;
   padding:0;
-  padding-bottom: 10em;
+  adding-bottom: 10em;
   list-style: none;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  overflow: hidden;
 }
 
-.archive-list li { list-style-type: none; }
+.archive-list li { padding-left:10px; border-bottom: 1px solid #ccc;}
+
+.archive-list li:last-child {  border-bottom: 0px; }
 
 .archive-list .sene {
   display: inline-block;
