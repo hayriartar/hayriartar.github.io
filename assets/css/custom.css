@@ -93,6 +93,13 @@ body > header {
   text-align: center;
 }
 
+.site-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
 .baslik {  }
 .baslik a { padding-top: 2px; padding-bottom: 2px; font-size: 1.1rem; font-weight: 600; }
 
@@ -101,9 +108,9 @@ body > header {
 .navbar a:hover { color: #666; border-bottom: 1px solid #ccc; ackground: #fff; }
 
 .motto {
-  margin-top: 5px;
+  margin-top: 0px;
   color: #777;
-  font-style: italic;
+  ont-style: italic;
   font-size: .9rem;
   letter-spacing: 0.02em;
 }
