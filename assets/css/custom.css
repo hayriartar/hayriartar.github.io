@@ -12,7 +12,7 @@ strong, b { color:#000; font-weight: 600; }
 small {  }
 
 h1 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.5;
   font-weight: 600;
   color: #000;
@@ -101,17 +101,16 @@ body > header {
 }
 
 .baslik {  }
-.baslik a { padding-top: 2px; padding-bottom: 2px; font-size: 1.1rem; font-weight: 600; }
+.baslik a { padding-top: 2px; padding-bottom: 2px; font-weight: 600; }
 
 .navbar { margin-top: 10px; }
-.navbar a { padding: 2px 5px 4px 5px; color: #777; font-size: 1rem; order: 1px solid #fefefe; order-radius:12px; }
+.navbar a { padding: 2px 5px 4px 5px; color: #777;  order: 1px solid #fefefe; order-radius:12px; }
 .navbar a:hover { color: #666; border-bottom: 1px solid #ccc; ackground: #fff; }
 
 .motto {
   margin-top: 0px;
   color: #777;
   ont-style: italic;
-  font-size: .9rem;
   letter-spacing: 0.02em;
 }
 
@@ -133,7 +132,7 @@ main { margin: 0 auto; margin-top:11vh; }
 
 .post-date {
  color: #777;
- font-size: .93rem;
+font-size: 1rem;
 }
 
 .post-link { opacity: 0.75;  display: block;  transition: opacity 0.2s ease; }
@@ -141,17 +140,19 @@ main { margin: 0 auto; margin-top:11vh; }
 
 .post-title { margin: 0 0 30px 0; }
 
-.journal-date { font-size: .93rem; display: block;  margin-bottom:30px; color: #000;  font-weight: 600; }
+.journal-date { display: block;  margin-bottom:30px; color: #000; font-size: 1rem; font-weight: 600; }
 
 
 .post-item > .post-date {
   display: block;
   margin-bottom: 30px;
+  font-size: 1rem;
 }
 
 .is-journal > .post-date {
  font-weight: 600;
  color: #000;
+ font-size: 1rem;
 }
 
 .post-content > p:first-child:not(:has(img)) {
@@ -168,7 +169,7 @@ main { margin: 0 auto; margin-top:11vh; }
   padding: 8px 14px;
   border-radius: 999px; /* tam yuvarlak */
   border: 1px solid #ccc;
-  font-size: 0.8rem;
+ 
   letter-spacing: 0.04em;
   color: #333;
   transition: all 0.2s ease;
@@ -202,7 +203,7 @@ main { margin: 0 auto; margin-top:11vh; }
 
 .pagination-center {
   justify-self: center;
-  font-size: 0.9rem;
+ 
   opacity: 0.9;
   letter-spacing: 0.08em;
 }
@@ -223,8 +224,7 @@ main { margin: 0 auto; margin-top:11vh; }
   justify-content: center;
   text-decoration: none;
   color: #333;
-  font-size: 1rem;
-  transition: all 0.2s ease;
+   transition: all 0.2s ease;
 }
 
 .page-arrow:hover {
@@ -243,6 +243,7 @@ main { margin: 0 auto; margin-top:11vh; }
 .post-header { position: relative; }
 
 .journal-header .post-date {
+	font-size: 1rem;
   font-weight: 600;
   color: #000;
   margin-bottom:600px;
@@ -323,7 +324,7 @@ main { margin: 0 auto; margin-top:11vh; }
   list-style: none;
 }
 
-.archive-list li { list-style-type: disc; }
+.archive-list li { list-style-type: none; }
 
 .archive-list .sene {
   display: inline-block;
