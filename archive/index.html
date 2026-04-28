@@ -27,7 +27,12 @@ Yazdıklarımın pek çoğunu sildim ve attım, eledim, özel hayatın gizliliğ
   
     {% assign posts = year.items | sort: "date" | reverse %}
 	 {% for post in posts %}
-      <li><a href="{{ post.url | relative_url }}">{{ post.date | date: "%Y-%m-%d" }}{% unless post.title == "" %} - {{ post.title }}{% endunless %}</a></li>
+     <li>
+  <a href="{{ post.url | relative_url }}" class="archive-link">
+    <span class="archive-title">{% unless post.title == "" %}{{ post.title }}{% endunless %}</span>
+    <span class="archive-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+  </a>
+</li>
     {% endfor %}
  
 {% endfor %}

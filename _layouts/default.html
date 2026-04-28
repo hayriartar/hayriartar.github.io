@@ -7,14 +7,29 @@
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 </head>
 <body>
+
+
+
 <header>
-<img src="{{ '/assets/images/avatar.png' | relative_url }}" class="site-logo" alt="logo">
+
 <div class="baslik">
   <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
 </div>
-<p class="motto">{an unmade bed of a man}</p>
-  {% include navbar.html %}
+<button class="menu-toggle" onclick="document.getElementById('drawer').classList.toggle('open')">☰</button>
+
+
+{% include navbar.html %}  
+  
+
+  
 </header>
+
+<div class="drawer-overlay" onclick="document.getElementById('drawer').classList.remove('open')"></div>
+
+<div id="drawer" class="drawer">
+  <button class="drawer-close" onclick="document.getElementById('drawer').classList.remove('open')">✕</button>
+  {% include navbar.html %}
+</div>
 
 <main>
   {{ content }}
