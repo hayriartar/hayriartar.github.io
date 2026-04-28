@@ -2,7 +2,7 @@
 layout: post
 date:   2013-03-16
 title: "Kardeşlik"
-categories: [journal]
+categories: [blog]
 ---
 
 Bu gece, teorik ve pratik olarak dün -ki saat sıfırsıfıroniki'yi gösteriyor- hatırlanacak bir geceydi. 

@@ -1,5 +1,5 @@
 ---
-categories: [journal]
+categories: [blog]
 layout: post
 title:  Romatizmal Yenilikler
 date:   2013-08-18

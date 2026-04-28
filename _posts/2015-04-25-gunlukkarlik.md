@@ -1,5 +1,5 @@
 ---
-categories: [journal]
+categories: [blog]
 layout: post
 title:  Günlük Karlık
 date:   2015-04-25

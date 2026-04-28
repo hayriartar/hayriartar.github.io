@@ -1,5 +1,5 @@
 ---
-categories: [journal]
+categories: [blog]
 layout: post
 title:  Bir Gün Belki Hayattan
 date:   2016-04-30
