@@ -5,15 +5,12 @@ layout: default
 
 
 <header class="post-header{% if page.categories contains 'journal' %} journal-header{% endif %}">
-
-<span class="post-date">
-  {{ page.date | date: "%d %b %Y" }}
-</span>
-
-{% unless page.categories contains "journal" %}
-<h2 class="post-heading">{{ page.title }}</h2>
-{% endunless %}
-
+{% if page.categories contains "journal" %}
+  <h2 class="post-heading">{{ page.title }}</h2>
+{% else %}
+  <span class="post-date">{{ page.date | date: "%d %b %Y" }}</span>
+  <h2 class="post-heading">{{ page.title }}</h2>
+{% endif %}
 </header>
  
 <article class="post-content post-only">

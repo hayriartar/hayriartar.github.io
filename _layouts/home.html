@@ -10,7 +10,7 @@ title: Ana Sayfa
 
     {% if post.categories contains "journal" %}
       <a href="{{ post.url | relative_url }}" class="journal-date">
-        {{ post.date | date: "%d %b %Y" }}
+       {{ post.title | default: post.slug }}
       </a>
 
       <div class="post-content">

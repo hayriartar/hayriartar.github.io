@@ -3,35 +3,104 @@ layout: default
 title: Now
 ---
 
+{% assign journals = site.posts | where_exp: "post", "post.categories contains 'journal'" | sort: "date" | reverse %}
+{% assign latest = journals | first %}
 
-<div class="library-content">
+<h2 style="margin-bottom: 30px;">{{ latest.title }}</h2>
 
-<h2 class="now-heading">{{ page.title }}</h2>
 
-<p>
-Bu aralar çalışmıyorum. Yaklaşık yedi yıldır havalimanında vardiyalı çalışmak hem bedenen hem de ruhen yordu beni. 
-İstemediğim yönlere ve davranışlara da kayar olmuştum. Bunun tek sebebi mekan ve iş de değil muhtemelen ama bahane arar ya insan.
-Bugünlerde daha çok cahit erdem ile vakit geçiriyorum. Dinleniyorum. Babamın sağlık durumuyla ilgileniyorum.  
-<br><br>
-<b>Currently Reading;</b> Project Hail Mary, Saka Kuşu
+<article class="post-content">
+  {{ latest.content }}
+</article>
+
 <br>
-<b>Lately Watched;</b> F1 (2025) ***, Suits ****
-<br>
-<b>Lately Played;</b>
-<ul>
-<li>Uncharted 4 *****</li>
-<li>Shadow Tactics ****</li>
-<li>Borderlands 2 ***</li>
-<li>Oxenfree ****</li>
-<li>Dead Cells *****</li>
-<li>The Swapper ***</li>
-<li>A Short Hike *****</li>
-<li>Sekiro *****</li>
-<li>Firewatch ****</li>
-<li>Everspace 2 *****</li>
+
+<ul class="library-list">
+
+<h3>Currently Reading;</h3>
+<li>
+<span class="item-title">Project Hail Mary</span>
+<span class="item-rating"></span>
+</li>
+<li>
+<span class="item-title">Saka Kuşu</span>
+<span class="item-rating"></span>
+</li>
+
+<h3>Lately Watched;</h3>
+
+<li>
+<span class="item-title">F1 (2025)</span>
+<span class="item-rating">3/5</span>
+</li>
+<li>
+<span class="item-title">Suits</span>
+<span class="item-rating">4/5</span>
+</li>
+
+
+<h3>Lately Played;</h3>
+
+<li>
+<span class="item-title">Uncharted 4</span>
+<span class="item-rating">4.5/5</span>
+</li>
+<li>
+<span class="item-title">Shadow Tactics</span>
+<span class="item-rating">4/5</span>
+</li>
+<li>
+<span class="item-title">Borderlands 2</span>
+<span class="item-rating">3/5</span>
+</li>
+<li>
+<span class="item-title">Oxenfree</span>
+<span class="item-rating">4/5</span>
+</li>
+<li>
+<span class="item-title">Dead Cells</span>
+<span class="item-rating">4.5/5</span>
+</li>
+<li>
+<span class="item-title">The Swapper</span>
+<span class="item-rating">3/5</span>
+</li>
+<li>
+<span class="item-title">A Short Hike</span>
+<span class="item-rating">5/5</span>
+</li><li>
+<span class="item-title">Sekiro</span>
+<span class="item-rating">5/5</span>
+</li>
+<li>
+<span class="item-title">Firewatch</span>
+<span class="item-rating">4.5/5</span>
+</li>
+<li>
+<span class="item-title">Everspace 2</span>
+<span class="item-rating">5/5</span>
+</li>
+
+
 </ul>
 
-<br/>
-<br/><br/><br/>
+<br><br><br>
 
-</div>
+
+
+
+<h3> Previous Updates </h3>
+
+
+<ul class="archive-list">
+{% for post in journals %}
+  <li>
+    <a href="{{ post.url | relative_url }}" class="archive-link">
+      <span class="archive-title">{% unless post.title == "" %}{{ post.title }}{% endunless %}</span>
+      <span class="archive-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+<br><br><br>

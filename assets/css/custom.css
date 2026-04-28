@@ -13,21 +13,23 @@ small {  }
 
 h1 {
   font-size: 1rem;
-  line-height: 1.5;
+  ine-height: 1.5;
   font-weight: 600;
   color: #000;
 }
 
 h2 {
   font-size: 1rem;
-  line-height: 1.6;
+  ine-height: 1.6;
   font-weight: 600;
   color: #000;
 }
 
+
+
 h3 {
   font-size: 1rem;
-  line-height: 1.6;
+  ine-height: 1.6;
   font-weight: 600;
   color: #000;
 }
@@ -249,6 +251,14 @@ font-size: 1rem;
   margin-bottom:600px;
 }
 
+.post-heading {
+  margin-top: 0;
+  padding-top: 0;
+  line-height:1.75;
+}
+
+
+
 .post-content .caption  {  font-size: .88rem; opacity:.75; }
 
 .post-only .caption  {  display: block; margin-top: -29px; font-size: .88rem; opacity:.75; }
@@ -363,6 +373,18 @@ font-size: 1rem;
   text-underline-offset: -.25em;
 }
 
+
+
+.library-list {
+  list-style: none;
+  padding: 0;
+}
+
+.library-list li {
+	border-bottom: 1px solid #Eee;
+  display: flex;
+  justify-content: space-between;
+}
 
 
 /* -------------------- KOD BLOKLARI -------------------- */
