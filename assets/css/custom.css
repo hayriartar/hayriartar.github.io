@@ -516,11 +516,11 @@ mark {
 html { font-size: 15px;}
 body {  }
 body > header { 
- position: sticky;
+ position: fixed;
     top: 0;
-    margin-left: -2.2rem;
-    margin-right: -2.2rem;
-    padding: 1rem 2.2rem;
+    left: 0;
+   right: 0;
+    padding: 1.4rem 5vw;
     background: #faf9f5;
     z-index: 50;
     margin-top: 0;
@@ -549,5 +549,9 @@ body > header {
   padding: 0.5rem 0;
   border-bottom: 1px solid #eee;
 }
+
+main { margin-top:30vh; }
+
+h2 { font-size: 1.4rem; }
 
 }
