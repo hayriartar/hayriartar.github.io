@@ -527,7 +527,7 @@ body > header {
     box-sizing: border-box;
 	border-bottom: 1px solid #eee;
  }
-.baslik a { font-family: sans-serif; font-weight:400; ext-transform:uppercase; }
+.baslik a { font-family: sans-serif; font-weight:400; text-transform:uppercase; }
 	
 	
 .menu-toggle { display: block; }
