@@ -555,11 +555,11 @@ body > header {
 
 main { margin-top:30vh; }
 
-h2 { font-size: 1.1rem; }
+h2 { font-size: 1.2rem; }
 
 .journal-date, .post-item > .post-date, .is-journal > .post-date {
-  font-size: .9rem;
-  font-family: sans-serif;
+  font-size: 1.2rem;
+  
 }
 
 .post-date {
