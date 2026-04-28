@@ -74,7 +74,7 @@ body {
   margin: 0 auto;
   color: #222;
   ont-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-family: serif;
+  font-family: 'IBM Plex Serif', Georgia, serif;
   font-size: 1rem;
   line-height: 1.75;
   font-weight: 400;
@@ -515,7 +515,18 @@ mark {
 	
 html { font-size: 15px;}
 body {  }
-body > header { margin-top:5vh; }
+body > header { 
+ position: sticky;
+    top: 0;
+    margin-left: -2.2rem;
+    margin-right: -2.2rem;
+    padding: 1rem 2.2rem;
+    background: #faf9f5;
+    z-index: 50;
+    margin-top: 0;
+    box-sizing: border-box;
+	border-bottom: 1px solid #eee;
+ }
 .baslik a { font-family: sans-serif; font-weight:400; ext-transform:uppercase; }
 	
 	
