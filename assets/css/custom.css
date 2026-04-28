@@ -4,6 +4,7 @@ html, body { background-color: #faf9f5; }
 
 /* -------------------- GLOBAL ATTS -------------------- */
 
+* {  -webkit-tap-highlight-color: transparent; }
 
 ::selection { background-color:rgba(255, 239, 68, 0.4); }
 
@@ -515,6 +516,7 @@ mark {
 html { font-size: 15px;}
 body {  }
 body > header { margin-top:5vh; }
+.baslik a { font-family: sans-serif; font-weight:400; ext-transform:uppercase; }
 	
 	
 .menu-toggle { display: block; }
