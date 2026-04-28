@@ -9,8 +9,13 @@ title: Ana Sayfa
   <article class="post-item{% if post.categories contains 'journal' %} is-journal{% endif %}">
 
     {% if post.categories contains "journal" %}
-      <a href="{{ post.url | relative_url }}" class="journal-date">
-       {{ post.title | default: post.slug }}
+      <a href="{{ post.url | relative_url }}" class="post-link">
+        <span class="post-date">
+          {{ post.date | date: "%d %b %Y" }}
+        </span>
+        <h2 class="post-title">
+          {{ post.title | default: post.slug }}
+        </h2>
       </a>
 
       <div class="post-content">

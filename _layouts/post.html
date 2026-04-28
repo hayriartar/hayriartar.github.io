@@ -6,6 +6,7 @@ layout: default
 
 <header class="post-header{% if page.categories contains 'journal' %} journal-header{% endif %}">
 {% if page.categories contains "journal" %}
+   <span class="post-date">{{ page.date | date: "%d %b %Y" }}</span>
   <h2 class="post-heading">{{ page.title }}</h2>
 {% else %}
   <span class="post-date">{{ page.date | date: "%d %b %Y" }}</span>
