@@ -90,7 +90,7 @@ body {
 body > header { 
   margin-top:15vh; 
   display: flex;
- flex-direction: row;
+  flex-direction: row;
   align-items: baseline;
   justify-content: space-between;
 }
@@ -470,7 +470,7 @@ mark {
   position: fixed;
   top: 0;
   right: -100%;
-  width: 75vw;
+  width: 50vw;
   height: 100vh;
   background: #fefefe;
   z-index: 100;
@@ -511,30 +511,30 @@ mark {
 }
 
 @media (max-width: 600px) {
-  .menu-toggle {
-    display: block;
-  }
+	
+html { font-size: 15px;}
+body {  }
+body > header { margin-top:5vh; }
+	
+	
+.menu-toggle { display: block; }
 
-  .navbar {
-    display: none;
-  }
-}
+.navbar { display: none;  }
+
 
 .drawer .navbar {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  align-items: center;
+  gap: 2rem;
+  padding-top:6rem;
 }
 
+.drawer .navbar a {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
 
-@media (max-width: 600px) {
-  body {
-    font-family: serif;
-    margin: 0 2.2rem;
-    max-width: 100%;
-  }
-
-.post-content img { max-width: 80vw; }
-  
-  
 }
