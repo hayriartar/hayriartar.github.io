@@ -248,12 +248,7 @@ font-family: sans-serif;
 
 .post-header { position: relative; }
 
-.journal-header .post-date {
-	font-size: 1rem;
-  font-weight: 600;
-  color: #000;
-  margin-bottom:600px;
-}
+
 
 .post-heading {
   margin-top: 0;
