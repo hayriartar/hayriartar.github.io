@@ -529,7 +529,7 @@ body > header {
     box-sizing: border-box;
 	border-bottom: 1px solid #eee;
  }
-.baslik a { ont-family: sans-serif; font-weight:400; ext-transform:uppercase; }
+.baslik a { font-size: 1.1rem; font-weight:600;  }
 	
 	
 .menu-toggle { display: block; }
