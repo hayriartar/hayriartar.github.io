@@ -103,9 +103,9 @@ body > header {
 .baslik {  }
 .baslik a { color:#111; padding-top: 2px; padding-bottom: 2px; font-weight: 600; }
 
-.navbar { margin-top: 10px; }
-.navbar a { padding: 2px 5px 4px 5px; color: #777;  order: 1px solid #fefefe; order-radius:12px; }
-.navbar a:hover { color: #666; border-bottom: 1px solid #ccc; ackground: #fff; }
+.navbar, .lists { margin-top: 10px; }
+.navbar a, .lists a { padding: 2px 5px 4px 5px; color: #777;  order: 1px solid #fefefe; order-radius:12px; }
+.navbar a:hover, .lists a:hover { color: #666; border-bottom: 1px solid #ccc; ackground: #fff; }
 
 .motto {
   margin-top: 0px;
