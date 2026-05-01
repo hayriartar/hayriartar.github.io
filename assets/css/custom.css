@@ -488,7 +488,7 @@ mark {
 
 @media (max-width: 600px) {
 	
-html { font-size: 16px;}
+html { font-size: 15px;}
 body {  font-family: sans-serif; }
 body > header { 
     position: fixed;
