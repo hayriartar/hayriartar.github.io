@@ -2,59 +2,23 @@
 layout: default
 title: Ana Sayfa
 ---
-
 <div class="post-list">
   {% for post in paginator.posts %}
-
   <article class="post-item{% if post.categories contains 'journal' %} is-journal{% endif %}">
-
-    {% if post.categories contains "journal" %}
-      <a href="{{ post.url | relative_url }}" class="post-link">
-        <span class="post-date">
-          {{ post.date | date: "%d %b %Y" }}
-        </span>
-        <h2 class="post-title">
-          {{ post.title | default: post.slug }}
-        </h2>
-      </a>
-
-      <div class="post-content">
-        {{ post.content }}
-      </div>
-
-    {% elsif post.categories contains "blog" %}
-      <a href="{{ post.url | relative_url }}" class="post-link">
-        <span class="post-date">
-          {{ post.date | date: "%d %b %Y" }}
-        </span>
-        <h2 class="post-title">
-          {{ post.title | default: post.slug }}
-        </h2>
-      </a>
-
-      <div class="post-content">
+    <a href="{{ post.url | relative_url }}" class="post-link">
+      <span class="post-date">{{ post.date | date: "%d %b %Y" }}</span>
+      <h2 class="post-title">{{ post.title | default: post.slug }}</h2>
+    </a>
+    <div class="post-content">
+      {% if post.categories contains "blog" %}
         {{ post.content | split: "</p>" | first | append: "</p>" }}
-      </div>
-
-      <a href="{{ post.url | relative_url }}" class="read-more">
-        Devamını oku →
-      </a>
-
-    {% else %}
-      <a href="{{ post.url | relative_url }}" class="post-link">
-        <span class="post-date">
-          {{ post.date | date: "%d %b %Y" }}
-        </span>
-        <h2 class="post-title">
-          {{ post.title | default: post.slug }}
-        </h2>
-      </a>
-
-      <div class="post-content">
+      {% else %}
         {{ post.content }}
-      </div>
+      {% endif %}
+    </div>
+    {% if post.categories contains "blog" %}
+      <a href="{{ post.url | relative_url }}" class="read-more">Devamını oku →</a>
     {% endif %}
-
   </article>
   {% endfor %}
 </div>
@@ -66,11 +30,9 @@ title: Ana Sayfa
       <a href="{{ paginator.previous_page_path | relative_url }}" class="page-arrow">←</a>
     {% endif %}
   </div>
-
   <div class="pagination-center">
     {{ paginator.page }} / {{ paginator.total_pages }}
   </div>
-
   <div class="pagination-right">
     {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path | relative_url }}" class="page-arrow">→</a>

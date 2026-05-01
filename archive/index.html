@@ -30,7 +30,7 @@ Yazdıklarımın pek çoğunu eledim, sildim ve attım. Özel hayatın gizliliğ
      <li>
   <a href="{{ post.url | relative_url }}" class="archive-link">
     <span class="archive-title">{% unless post.title == "" %}{{ post.title }}{% endunless %}</span>
-    <span class="archive-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    <span class="archive-date">{{ post.date | date: "%d/%m/%Y" }}</span>
   </a>
 </li>
     {% endfor %}
