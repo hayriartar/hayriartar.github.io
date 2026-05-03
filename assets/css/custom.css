@@ -500,7 +500,7 @@ mark {
 
 @media (max-width: 600px) {
 	
-html { font-size: 18px;}
+html { font-size: 16px;}
 body { max-width: 80vw;}
 body > header { 
     position: fixed;
