@@ -500,8 +500,8 @@ mark {
 
 @media (max-width: 600px) {
 	
-html { font-size: 16px;}
-body { max-width: 80vw;}
+html { font-size: 15px;}
+body { max-width: 86vw;}
 body > header { 
     position: fixed;
     top: 0;
