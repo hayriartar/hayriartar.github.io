@@ -4,10 +4,12 @@ title: Ana Sayfa
 ---
 <div class="post-list">
   {% for post in paginator.posts %}
-  <article class="post-item{% if post.categories contains 'journal' %} is-journal{% endif %}">
+  <article class="post-item{% if post.categories contains 'short' %} is-short{% endif %}">
     <a href="{{ post.url | relative_url }}" class="post-link">
       <span class="post-date">{{ post.date | date: "%d %b %Y" }}</span>
-      <h2 class="post-title">{{ post.title | default: post.slug }}</h2>
+      {% unless post.categories contains 'short' %}
+        <h2 class="post-title">{{ post.title }}</h2>
+      {% endunless %}
     </a>
     <div class="post-content">
       {% if post.categories contains "blog" %}
@@ -22,7 +24,6 @@ title: Ana Sayfa
   </article>
   {% endfor %}
 </div>
-
 {% if paginator.total_pages > 1 %}
 <nav class="pagination">
   <div class="pagination-left">

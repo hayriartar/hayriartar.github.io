@@ -6,14 +6,18 @@ title: Now
 {% assign journals = site.posts | where_exp: "post", "post.categories contains 'journal'" | sort: "date" | reverse %}
 {% assign latest = journals | first %}
 
+
 <h2>{{ latest.title }}</h2>
+
 
 {{ latest.content }}
 
+<p>
 <b>Currently Reading:</b> Project Hail Mary
-<br>
+</p>
+<p>
 <b>Currently Playing :</b> Uncharted 4
-
+</p>
 <br><br><br>
 
 <h3> Previous Updates </h3>
@@ -30,3 +34,4 @@ title: Now
 </ul>
 
 <br><br><br>
+
