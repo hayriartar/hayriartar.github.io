@@ -132,15 +132,11 @@ main { margin: 0 auto; margin-top:26vh; }
 }
 
 .post-date {
-	line-height: 1.5;
+  line-height: 1.5;
   font-size: .9rem;
   color: #777;
   display:block;
-  margin: 0 0 25px 0;
-}
-
-.post-item .post-date {
-  margin-bottom: 0;
+ 
 }
 
 .post-title { margin: 0 0 25px 0; padding: 0;}
@@ -150,12 +146,17 @@ main { margin: 0 auto; margin-top:26vh; }
   margin: 0 0 25px 0;
   font-size: .9rem;
   color: #777;
+}
 
+.short-date {
+  margin-bottom: 25px;
 }
 
 .post-content > p:first-child:not(:has(img)) {
   margin-top: -10px;
 }
+
+
 
 .read-more {
   float: right;
@@ -499,7 +500,7 @@ mark {
 
 @media (max-width: 600px) {
 	
-html { font-size: 15px;}
+html { font-size: 18px;}
 body {  font-family: sans-serif; }
 body > header { 
     position: fixed;
