@@ -14,21 +14,21 @@ small {  }
 
 h1 {
   font-size: 1rem;
-  ine-height: 1.5;
+  line-height: 1.75;
   font-weight: 600;
   color: #111;
 }
 
 h2 {
   font-size: 1rem;
-  ine-height: 1.6;
+  line-height: 1.75;
   font-weight: 600;
   color: #111;
 }
 
 h3 {
   font-size: 1rem;
-  ine-height: 1.6;
+  line-height: 1.75;
   font-weight: 600;
   color: #111;
 }
@@ -68,12 +68,12 @@ p:has(a)::before,  h2:has(a)::before {
 /* -------------------- BODY -------------------- */
 
 body {
-  max-width: min(48ch, 90vw);
+  max-width: min(50ch, 90vw);
   margin: 0 auto;
-  color: #2d2d2d;
-  font-family: "Lora", Georgia, serif;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
-  line-height: 1.75;
+  line-height: 1.70;
   font-weight: 400;
   text-underline-offset: 0.38em;
   text-decoration-thickness: 1em;
@@ -103,9 +103,9 @@ body > header {
 .baslik {  }
 .baslik a { color:#111; padding-top: 2px; padding-bottom: 2px; font-weight: 600; }
 
-.navbar, .lists { margin-top: 10px; }
-.navbar a, .lists a { padding: 2px 5px 4px 5px; color: #777;  order: 1px solid #fefefe; order-radius:12px; }
-.navbar a:hover, .lists a:hover { color: #666; border-bottom: 1px solid #ccc; ackground: #fff; }
+.navbar { margin-top: 10px; }
+.navbar a { padding: 2px 5px 4px 5px; color: #777;  order: 1px solid #fefefe; order-radius:12px; }
+.navbar a:hover { color: #666; border-bottom: 1px solid #ccc; ackground: #fff; }
 
 .motto {
   margin-top: 0px;
@@ -309,7 +309,7 @@ main { margin: 0 auto; margin-top:26vh; }
 
 .archive-list li {  border-bottom: 1px solid #eee;}
 
-.archive-list li:last-child {  border-bottom: 0px; }
+.archive-list li:last-child {  border-bottom: 1px solid #eee; }
 
 .archive-list .sene {
   display: inline-block;
@@ -415,7 +415,7 @@ figcaption {
   margin-top: 0.5em;
   font-size: 0.85rem;
   color: #777;
-  line-height: 1.5;
+  line-height: 1.75;
 }
 
 table {

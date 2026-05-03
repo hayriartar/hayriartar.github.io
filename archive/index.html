@@ -5,23 +5,22 @@ title: Archive
 
 
 
-<h2 class="archive-heading">{{ page.title }}</h2>
+<h2 class="post-heading">{{ page.title }}</h2>
 
-<p>
+
 Bugüne kadar gerek kağıda gerek internette bir yerlere pek çok yazı ve şiir yazdım. Sıradan bir insanın bir başkasına anlam ifade etmeyen lakırtıları.
 Ergenlik yıllarımda bu konudaki ilk dramamı o güne kadar yazdıklarımın bulunduğu kağıtları memleketimdeki çaya savurarak gerçekleştirdim.
 Yazdıklarımın pek çoğunu eledim, sildim ve attım. Özel hayatın gizliliği adına yaptım bunların çoğunu.. Kalan bir avuç lakırtının listesini aşağıda bulabilirsiniz.
-</p>
 
 
+<h3>Pages</h3>
 {% include lists.html %}  
 
 
-<br><br>
-
+<h3>Categories and Tags</h3>
 {% include meta-index.html %}
 
-
+<h3>Post Archive</h3>
 <ul class="archive-list">
   
 {% assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
