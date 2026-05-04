@@ -502,18 +502,7 @@ mark {
 	
 html { font-size: 15px;}
 body { max-width: 86vw;}
-body > header { 
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 1.4rem 5vw;
-    background: #fff;
-    z-index: 50;
-    margin-top: 0;
-    box-sizing: border-box;
-	border-bottom: 1px solid #eee;
- }
+body > header { margin-top:10vh; }
  
  
 .baslik a { font-size: 1.2rem; font-weight:600;  }
@@ -523,6 +512,7 @@ body > header {
 
 .navbar { display: none;  }
 
+main { margin-top:16vh; }
 
 .drawer .navbar {
   display: flex;
@@ -539,7 +529,7 @@ body > header {
   border-bottom: 1px solid #eee;
 }
 
-main { margin-top:30vh; }
+
 
 h2,h3 { font-size: 1.2rem; }
 
