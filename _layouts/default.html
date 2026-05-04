@@ -36,6 +36,34 @@
   {{ content }}
 </main>
  <script data-goatcounter="https://minik.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script> 
+        async src="//gc.zgo.at/count.js">
+		</script> 
+		
+		<script>
+function toggleTheme() {
+  const html = document.documentElement;
+  const btn = document.querySelector('.theme-toggle');
+  if (html.getAttribute('data-theme') === 'dark') {
+    html.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+    btn.textContent = '🌙';
+  } else {
+    html.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+    btn.textContent = '☀️';
+  }
+}
+(function() {
+  const saved = localStorage.getItem('theme');
+  if (saved === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    document.addEventListener('DOMContentLoaded', function() {
+      const btn = document.querySelector('.theme-toggle');
+      if (btn) btn.textContent = '☀️';
+    });
+  }
+})();
+</script>
+
 </body>
 </html>
