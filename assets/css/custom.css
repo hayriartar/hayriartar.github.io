@@ -309,6 +309,7 @@ mark {
     margin: 0 2.2rem;
     max-width: 100%;
   }
+  .home { display:none; }
 
   .post-content img { max-width: 80vw; }
 }
