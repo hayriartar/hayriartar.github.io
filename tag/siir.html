@@ -9,23 +9,24 @@ permalink: /tag/siir/
 
 <h1>tag:{{ page.tag }}</h1>
 
-
+<div class="home">
+<a href="/index">
+ <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="19" y1="12" x2="5" y2="12"/>
+  <polyline points="12 19 5 12 12 5"/>
+</svg>
+</a>
+</div>
 
 <ul class="post-list">
 
   {% assign filtered = site.posts | where_exp: "post", "post.tags contains page.tag" %}
   {% assign total = filtered | size %}
-
-  {% for post in filtered %}
-    {% assign raw = total | minus: forloop.index0 %}
-    {% assign num = raw | prepend: "000" | slice: -3, 3 %}
-
-    <li>
-     <span class="post-num">{{ num }}.</span>&nbsp;
-      <a href="{{ post.url | relative_url }}">
+      <li>
+     # <a href="{{ post.url | relative_url }}">
        {% unless post.title == "" %}{{ post.title }}{% endunless %}
       </a>
     </li>
-  {% endfor %}
+  
 
 </ul>
