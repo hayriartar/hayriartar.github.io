@@ -6,19 +6,26 @@ title: Now
 {% assign journals = site.posts | where_exp: "post", "post.categories contains 'journal'" | sort: "date" | reverse %}
 {% assign latest = journals | first %}
 
+<header class="post-header">
 
-<h2>{{ latest.title }}</h2>
+
+<h1 class="post-heading">{{ latest.title }}</h1>
 
 
-{{ latest.content }}
+</header>
+
+{% include backindex.html %}
+
+<div class="page-content">
+  {{ latest.content }}
+</div>
 
 <p>
 <b>Currently Reading:</b> Project Hail Mary
-</p>
-<p>
+<br>
 <b>Currently Playing :</b> Uncharted 4
 </p>
-<br><br><br>
+<br>
 
 <h3> Previous Updates </h3>
 

@@ -1,11 +1,11 @@
 ---
-layout: default
-title: Games
+layout: pages
+title: Games to Remember
 ---
 
-<h3>Games to remember;</h3>
 
-|  | Rating |
+
+
 |------|------|
 | Doom 3, 2015, Eternal | 5 |
 | The Witcher 3 | 5 |
@@ -32,12 +32,11 @@ title: Games
 | Bulletstorm | 3 |
 | Singularity | 3 |
 {: .game-table}
-<br>
 
 
 <h3>And Childhood;</h3>
 
-|  | Rating |
+
 |------|------|
 | Nekketsu Basket | 5 |
 | Nekketsu Goal 3 | 5 |

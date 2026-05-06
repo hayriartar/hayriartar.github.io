@@ -1,38 +1,37 @@
 ---
 layout: default
 ---
-<span class="post-date{% if page.categories contains 'short' %} short-date{% endif %}">{{ page.date | date: "%d %b %Y" }}</span>
-{% unless page.categories contains 'short' %}
-  <h2 class="post-title">{{ page.title }}</h2>
-{% endunless %}
-<div class="post-content">
-  {{ content }}
-</div>
-{% if page.categories or page.tags %}
-<div class="post-meta post-only">
-  {% for category in page.categories %}
-    <div class="post-categories">
-      <a href="/{{ category | slugify }}/" class="post-category-link">{{ category }}</a>
-    </div>
-  {% endfor %}
-  {% for tag in page.tags %}
-    <div class="post-tags">
-      <a href="/tag/{{ tag | slugify }}/" class="post-tag">#{{ tag }}</a>
-    </div>
-  {% endfor %}
-</div>
-{% endif %}
+
+
+
+<header class="post-header{% if page.categories contains 'journal' %} journal-header{% endif %}">
+
+
+<h1 class="post-heading">{{ page.title }}</h1>
+
+
+<span class="post-date">
+  {{ page.date | date: "-%B'%y" }}
+</span>
+
+</header>
+
+{% include backhome.html %}
+ 
+<article class="post-content post-only">
+   {{ content }}
+   
+</article>
+
+
+
 <nav class="post-navigation">
-  <div class="nav-left">
-    <p class="label">Previous</p>
-    {% if page.previous %}
-      <a class="prev-post" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-    {% endif %}
-  </div>
-  <div class="nav-right">
-    <p class="label">Next</p>
-    {% if page.next %}
-      <a class="next-post" href="{{ page.next.url }}">{{ page.next.title }}</a>
-    {% endif %}
-  </div>
+
+<div class="nav-left">
+  <p class="label">Previous</p>
+  {% if page.previous %}
+    <a class="prev-post" href="{{ page.previous.url }}"> {{ page.previous.title }}</a>
+  {% endif %}
+</div>
+  
 </nav>

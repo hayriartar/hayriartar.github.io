@@ -1,16 +1,15 @@
 ---
-layout: default
-title: TvSeries
+layout: pages
+title: Tv Series to Remember
 ---
 
-<h3>Series to remember;</h3>
 
-|  | Rating |
+
 |------|------|
-| One Tree Hill | Another Level |
-| Stranger Things | Another Level |
-| Lost | Another Level |
-| Goblin | Another Level |
+| One Tree Hill | * |
+| Stranger Things | * |
+| Lost | * |
+| Goblin | * |
 {: .game-table}
 
 | Friday Night Lights | 5 |
@@ -38,4 +37,5 @@ title: TvSeries
 | Night Manager | 3 |
 | The Last Ship | 3 |
 {: .game-table}
+
 <br>

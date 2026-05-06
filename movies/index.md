@@ -1,14 +1,14 @@
 ---
-layout: default
-title: Movies
+layout: pages
+title: Movies to Remember
 ---
 
-<h3>Movies to remember;</h3>
 
-|  | Rating |
+
+
 |------|------|
-| The Lord of The Rings Series | Another Level |
-| The Matrix 1,2,3 | Another Level |
+| The Lord of The Rings Series | * |
+| The Matrix 1,2,3 | * |
 {: .game-table}
 
 | About Time | 5 |

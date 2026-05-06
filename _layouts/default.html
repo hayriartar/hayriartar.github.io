@@ -3,38 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-  
+  {% feed_meta %}
 </head>
 <body>
-
-
-
-<header>
-
-<div class="baslik">
-  <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-</div>
-<button class="menu-toggle" onclick="document.getElementById('drawer').classList.toggle('open')">☰</button>
-
-
-{% include navbar.html %}  
-  
-
-  
-</header>
-
-<div class="drawer-overlay" onclick="document.getElementById('drawer').classList.remove('open')"></div>
-
-<div id="drawer" class="drawer">
-  <button class="drawer-close" onclick="document.getElementById('drawer').classList.remove('open')">✕</button>
-  {% include navbar.html %}
-</div>
 
 <main>
   {{ content }}
 </main>
+
  <script data-goatcounter="https://minik.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script> 
 </body>
