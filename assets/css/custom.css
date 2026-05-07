@@ -63,8 +63,8 @@ p:has(a)::before {
 body {
   font-family: monospace;
   max-width: 70ch;
-  margin-left: 10ch;
-  padding-top:10vh;
+  margin: 0 auto;
+  padding-top:11vh;
   color: #1a1a1a;
   font-size: 1rem;
   line-height: 1.75;
@@ -136,9 +136,9 @@ main {
 
 .journal-header { }
 
-.post-heading { }
+.post-heading { margin:0;  }
 
-.post-date {  }
+.post-date { }
 
 .post-only {  }
 
@@ -213,8 +213,8 @@ main {
 
 .home {
   position: absolute;
-  left: calc(10ch - 2rem);
-  top: calc(10vh + .875rem);
+  left: calc(70ch - 1rem);
+  top: calc(10vh + .775rem);
 }
 
 .page-content {margin-top:.8rem; }
@@ -270,7 +270,6 @@ blockquote {
   margin: 40px 0;
   padding-left: 1em;
   color: #111;
-  font-style: italic;
   border-left: 4px solid rgba(255, 239, 68, 0.4);
 }
 
