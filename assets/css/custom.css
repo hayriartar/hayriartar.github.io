@@ -141,7 +141,7 @@ main {
 .post-date { color: #faf9f5; transition: color 0.2s ease; }
 .post-date:hover { color: #1a1a1a; }
 
-.post-only {  }
+.post-only { margin-bottom: 4rem; }
 
 .post-only .caption  {  display: block; margin-top: -29px; font-size: 1rem; color: #222; }
 
