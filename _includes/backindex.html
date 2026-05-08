@@ -6,3 +6,18 @@
 </svg>
 </a>
 </div>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const home = document.querySelector('.home');
+  if (!home) return;
+  home.style.marginBottom = '4rem';
+  if (document.body.scrollHeight <= window.innerHeight) {
+    home.style.position = 'fixed';
+    home.style.bottom = '4rem';
+    home.style.left = home.getBoundingClientRect().left + 'px';
+    home.style.marginBottom = '0';
+  }
+});
+</script>

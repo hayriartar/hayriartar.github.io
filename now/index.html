@@ -7,38 +7,27 @@ title: Now
 {% assign latest = journals | first %}
 
 <header class="post-header">
-
-
 <h1 class="post-heading">{{ latest.title }}</h1>
-
-
 </header>
 
-{% include backindex.html %}
+
 
 <div class="page-content">
   {{ latest.content }}
 </div>
 
-<p>
-<b>Currently Reading:</b> Project Hail Mary
-<br>
-<b>Currently Playing :</b> Uncharted 4
-</p>
-<br>
 
-<h3> Previous Updates </h3>
 
+<h2> Previous Updates </h2>
 <ul class="archive-list">
 {% for post in journals %}
   <li>
     <a href="{{ post.url | relative_url }}" class="archive-link">
       <span class="archive-title">{% unless post.title == "" %}{{ post.title }}{% endunless %}</span>
-      <span class="archive-date">{{ post.date | date: "%Y-%m-%d" }}</span>
     </a>
   </li>
 {% endfor %}
 </ul>
 
-<br><br><br>
+{% include backindex.html %}
 

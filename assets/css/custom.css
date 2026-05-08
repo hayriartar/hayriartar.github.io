@@ -39,7 +39,7 @@ a:focus {   }
 
 img {
   display: block;
-  max-width:48ch;
+  max-width:60ch;
   margin: 10px 0;
   border-radius: 10px;
 }
@@ -62,7 +62,7 @@ p:has(a)::before {
 
 body {
   font-family: monospace;
-  max-width: 70ch;
+  max-width: 60ch;
   margin: 0 auto;
   padding-top:11vh;
   color: #1a1a1a;
@@ -134,18 +134,18 @@ main {
 
 .post-header { }
 
-.journal-header { }
+.journal-header .post-date { color: #faf9f5; transition: color 0.2s ease;  }
 
 .post-heading { margin:0;  }
 
-.post-date { color: #faf9f5; transition: color 0.2s ease; }
+.post-date {  }
 .post-date:hover { color: #1a1a1a; }
 
-.post-only { margin-bottom: 4rem; }
+.post-only {  }
 
 .post-only .caption  {  display: block; margin-top: -29px; font-size: 1rem; color: #222; }
 
-.post-content { }
+.post-content { margin-bottom: 4rem; }
 
 .post-content > :first-child { margin-top: 0; }
 
@@ -212,11 +212,7 @@ main {
 
 /* -------------------- PAGES -------------------- */
 
-.home {
-  position: absolute;
-  left: calc(70ch - 1.5rem);
-  top: calc(10vh + .775rem);
-}
+.home {  }
 
 .page-content {margin-top:.8rem; }
 
