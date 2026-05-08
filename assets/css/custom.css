@@ -138,7 +138,7 @@ main {
 
 .post-heading { margin:0;  }
 
-.post-date { color: #faf9f5; }
+.post-date { color: #faf9f5; transition: color 0.2s ease; }
 .post-date:hover { color: #1a1a1a; }
 
 .post-only {  }
