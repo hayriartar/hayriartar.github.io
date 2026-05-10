@@ -3,8 +3,6 @@ layout: pages
 title: Tv Series to Remember
 ---
 
-
-
 |------|------|
 | One Tree Hill | * |
 | Stranger Things | * |
@@ -37,5 +35,4 @@ title: Tv Series to Remember
 | Night Manager | 3 |
 | The Last Ship | 3 |
 {: .game-table}
-
 <br>

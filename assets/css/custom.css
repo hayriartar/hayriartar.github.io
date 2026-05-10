@@ -1,14 +1,12 @@
 html { overflow-y: scroll; font-size: 13px;  }
 html, body {   background-color: #faf9f5;    }
-
+:root {  --body-width: 60ch; }
 
 /* -------------------- GLOBAL ATTS -------------------- */
 
 ::selection { background-color:rgba(255, 239, 68, 0.4); }
 
 strong, b { color:#000; font-weight: 400; }
-
-small {  }
 
 h1 {
   font-size: 1rem;
@@ -17,13 +15,7 @@ h1 {
   color: #222;
 }
 
-h2 {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #222;
-}
-
-h3 {
+h2, h3 {
   font-size: 1rem;
   font-weight: 400;
   color: #222;
@@ -39,7 +31,7 @@ a:focus {   }
 
 img {
   display: block;
-  max-width:60ch;
+  max-width: var(--body-width);
   margin: 10px 0;
   border-radius: 10px;
 }
@@ -51,7 +43,7 @@ p:has(a) {
 p:has(a)::before {
   content: "↗";
   position: absolute;
-  left: -2ch;   
+  left: -3ch;   
   top: 0;
   font-weight: 400;
 }
@@ -61,12 +53,12 @@ p:has(a)::before {
 /* -------------------- BODY -------------------- */
 
 body {
-  font-family: monospace;
-  max-width: 60ch;
+  max-width: var(--body-width);
   margin: 0 auto;
-  padding-top:11vh;
-  color: #000;
+  padding-top:10vh;
+  font-family: monospace;
   font-size: 1rem;
+  color: #000;
   line-height: 1.75;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -77,11 +69,11 @@ body {
 
 /* -------------------- HEADER -------------------- */
 
- header { 
+header { 
   display: flex;
   flex-shrink: 0;
   flex-direction: column;
-  padding:0vh 0 0 0ch;
+  padding: 0;
   margin-bottom:2rem;
 }
 
@@ -101,15 +93,12 @@ body {
 /* -------------------- MAIN -------------------- */
 
 main {  
-  margin-top:0vh; 
   min-height: calc(100vh - 20vh);
   display: flex;
   flex-direction: column;
 }
 
 /* -------------------- HOME -------------------- */
-
-.sitemap { }
 
 .post-list {
   margin: 0;
@@ -163,53 +152,6 @@ main {
 
 .post-content img { margin-bottom: 40px; }
 
-.post-categories, .post-tags {
-  margin: 0px 10px 10px 0; 
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  padding: 0px 14px;
-  border-radius: 3px; 
-  border: 1px solid #eee;
-  font-size: 1rem;
-  letter-spacing: 0.04em;
-  color: #333;
-  background: rgba(255, 239, 68, 0.4);
-  transition: all 0.2s ease;
-}
-
-.post-category-link,
-.post-tag,
-.post-category-link:link,
-.post-tag:link,
-.post-category-link:visited,
-.post-tag:visited,
-.post-category-link:active,
-.post-tag:active {
-  color: inherit !important;
-  text-decoration: none !important;
-}
-
-.post-only .post-categories,
-.post-only .post-tags { margin-top: 50px; margin-bottom: 50px; }
-
-.back-top { font-size: 1rem; }
-
-.post-navigation {
-  display:flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top: auto;
-  margin-bottom: 2rem;
-  padding-top: 0.2em;
-  padding-bottom: 0em;
-}
-
-.label { font-size: 1rem; color: #777; display: block; margin-bottom: 0; text-decoration: none; }
-
-.nav-left { text-align: left; }
-
 /* -------------------- PAGES -------------------- */
 
 .home {  }
@@ -218,7 +160,6 @@ main {
 
 .game-table { margin-top: 1rem; width: 65%; }
 .game-table td:last-child, .game-table th:last-child { text-align: right; }
-
 
 /* -------------------- ABOUT -------------------- */
 
@@ -230,6 +171,15 @@ main {
   text-underline-offset: -.25em;
 }
 
+
+.tag-list {  
+  margin: 0;
+  padding:0; 
+  margin-top: 1rem;
+  list-style: none; }
+  
+.tag-list li { padding: 2px 0px 4px 0px;  }
+.tag-list li:first-child { padding-top: 0; }
 
 /* -------------------- KOD BLOKLARI -------------------- */
 
@@ -259,8 +209,6 @@ pre code {
   border-radius: 0;
 }
 
-
-
 /* -------------------- BLOCKQUOTE -------------------- */
 
 blockquote {
@@ -269,8 +217,6 @@ blockquote {
   color: #111;
   border-left: 4px solid rgba(255, 239, 68, 0.4);
 }
-
-
 
 /* -------------------- TYPOGRAPHY BLOCK ELEMENTS -------------------- */
 
@@ -292,20 +238,18 @@ table {
   font-size: 1rem;
 }
 
-
 /* Inline highlight  */
 mark {
   background: rgba(255, 239, 68, 0.4);
   padding: 0.1em 0.25em;
 }
 
-@media (max-width: 600px) {
-  body {
-    
-    margin: 0 2.2rem;
-    max-width: 100%;
-  }
-  .home {  }
+/* -------------------- MOBILE -------------------- */
 
-  .post-content img { max-width: 80vw; }
+
+@media (max-width: 600px) {
+
+body { margin: 0 2.2rem;  max-width: 100%; }
+.post-content img { max-width: 80vw; }
+
 }

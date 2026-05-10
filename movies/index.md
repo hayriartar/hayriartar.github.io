@@ -3,9 +3,6 @@ layout: pages
 title: Movies to Remember
 ---
 
-
-
-
 |------|------|
 | The Lord of The Rings Series | * |
 | The Matrix 1,2,3 | * |

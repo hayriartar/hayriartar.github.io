@@ -10,16 +10,11 @@ title: Now
 <h1 class="post-heading">{{ latest.title }}</h1>
 </header>
 
-
-
-<div class="page-content">
-  {{ latest.content }}
-</div>
-
-
+<div class="page-content"> {{ latest.content }} </div>
 
 <h2> Previous Updates </h2>
-<ul class="archive-list">
+
+<ul>
 {% for post in journals %}
   <li>
     <a href="{{ post.url | relative_url }}" class="archive-link">
@@ -30,4 +25,3 @@ title: Now
 </ul>
 
 {% include backindex.html %}
-

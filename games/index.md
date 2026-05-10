@@ -3,9 +3,6 @@ layout: pages
 title: Games to Remember
 ---
 
-
-
-
 |------|------|
 | Doom 3, 2015, Eternal | 5 |
 | The Witcher 3 | 5 |
