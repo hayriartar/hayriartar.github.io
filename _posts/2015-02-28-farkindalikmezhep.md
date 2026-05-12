@@ -5,9 +5,7 @@ title:  İslamda Farkındalık, Mezhep
 date:   2015-02-28
 ---
 
-Nihayet yazı serimizin ikinci yazısına geldik..  
-Çok uzun bir ara oldu ne yazık ki..  <br><br>
-Mezhep konusundan bahsedeceğiz bu akşam. Hemen söyleyelim ki mezhep sözlük anlamı bakımından gidilen yol manasına gelmekte. Ülkemiz müslümanlarının büyük bir kısmının yaşadığı İslam ne yazık ki yine büyük bir oranda ezberden öteye gitmiyor. Mezheb'i sorulduğunda ezbere söylediği -örneğin- Hanefi mezhebinin ne anlama geldiğinin farkında değil bir çok müslüman. Bu konuda kendi varlık çapımızın kapsadığı insanlarda bir farkındalık oluşturmak gayesiyle yazıya devam edelim.
+Mezhep konusundan bahsedeceğiz bu akşam. Sözlük anlamı bakımından gidilen yol manasına gelmekte. Ülkemiz müslümanlarının büyük bir kısmının yaşadığı İslam ne yazık ki yine büyük bir oranda ezberden öteye gitmiyor. Mezheb'i sorulduğunda ezbere söylediği -örneğin- Hanefi mezhebinin ne anlama geldiğinin farkında değil bir çok müslüman. Bu konuda kendi varlık çapımızın kapsadığı insanlarda bir farkındalık oluşturmak gayesiyle yazıya devam edelim.
     
 Neden mezhepler var sorusunu cevaplamaya çalışarak başlayalım. Dinimizde hükmü hakkında kesinlik bulunan ve bir de kesinlik bulunmayan mevzular vardır. Aynı doğrultuda kullanılan terimler ve onlara yüklenen farklı anlamlar sebebiyle hakkında kesin ve net bir sonuca ulaşamayacağımız, yani açık olmayan naslar (emir ve yasaklar) vardır. Hem Kuran hem de sünnette bunun örnekleri çoktur. Mezhep bu ahkam veya usulle ilgili ayetleri ve sünneti belirli bir sistem çerçevesinde anlamlandırma işidir.
     
