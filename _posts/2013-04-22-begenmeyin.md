@@ -19,9 +19,9 @@ Belki de bir daha asla onarılamayacak bir hasara yol açacaktır.
 Bu durumla ilgili bir derecelendirme yapacaksak eğer kendi adımıza şu yolu izleyebiliriz. 
 Büyük günahlardan birini işlemek beter bir durumdur. Eğer günahınız açığa çıkmışsa geri dönüşü yoktur. Çevreniz tarafından tekrar kabul edilseniz dahi asla eskisi gibi olmayacaktır. 
 Hafızalarda yer etmiştir ve beyin içinde sizinle ilgili bir etkileşim olduğunda -görüşme, konuşma, akla gelme, sesini duyma vs..- bu konu bilinç sistemine kendini gösterecektir. 
+
+
 Allah c.c. tarafında ise durum farklı olabilir. Pişman olursanız, tevbe ederseniz ve varsa af şartlarını yerine getirirseniz bu günah bağışlanabilir.
-
-
 Hele gün yüzüne çıkmamışsa bağışlanma olasılığı daha fazla olabilir. Zira bununla ilgili bir hadis hatırlamaktayım. Kaynağını, ravilerini veremeyeceğim 
 ama bir sohbette dinlediğimi sanıyorum. Aşağı yukarı anlamını vermeye çalışacağım. Allah teala kıyamet gününde kullarını hesaba çekerken bir kulunu kendine doğru çekip* yanaştırıyor. 
 Dünyada iken işlediği ama ortaya çıkmayan günahlarını hatırlatıyor ve daha sonra bunları dünyada açığa vurmadığı gibi ahirette de açığa vurmayacağını ve affedeceğini müjdeliyor.
@@ -57,12 +57,5 @@ Neyse uzatmadan sadede geleyim. Ulan adam camiye geliyorsun, öyle tek tük de d
 Kılarken namazını artiz artiz yatıp kalkma işte. Biraz vakur ol. 
 
 
-Neyse noktayı yakaladığınızı umuyorum ve bitiriyorum. Bu arada bu konu bir aralar yazmak istediğim fakat icraate geçiremediğim 
-Namaz'da Farkındalık yazısında bahsetmek istediğim konulardan biriydi. 
-Aslında yazıyı burada bitirecek miydim bilmiyorum ama şu anlık yeter gibi geliyor. 
-
 &nbsp;*&nbsp; Bu hadis müteşabih hadislerden olabilir. Burada geçen kendine doğru çekip yanaştırmanın nasıl olduğunu ise Allah bilir. 
-Zira Allah hiçbir şeye hiçbir şekle benzemez. Bu yüzden cümle okunduğunda insanın aklında zuhur eden biçim kabul edilmemelidir.  
-
-
-
+Zira Allah hiçbir şeye hiçbir şekle benzemez. Bu yüzden cümle okunduğunda insanın aklında zuhur eden biçim kabul edilmemelidir.

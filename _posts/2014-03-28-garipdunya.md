@@ -5,9 +5,6 @@ title:  Garip Dünya
 date:   2014-03-28
 ---
 
-
-
-
 Sevdiğiniz insanların istediğiniz davranışlarda bulunmaması sizi küçük de olsa yaralıyor.
 Bakıyorum da çocukken nedenini bilmediğim halde sevdiğim, diğer insanlardan ayırdığım bazı kişiler şu an suratına sağlam bir kroşe sallama isteği duyduğum insanlar haline gelmiş. 
 Değişmişler mi yoksa seneler önce de şu an oldukları kişiler miydi bilmiyorum.

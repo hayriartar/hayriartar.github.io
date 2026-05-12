@@ -9,7 +9,7 @@ Yazmak istediğim, daha ziyade yaşamak istediğim ve hatta bundan da ziyade tek
 Bazı değişikliklere giderek mutlu olma isteğim var. Kendimle, sevdiklerimle ve olmam gerekenlerle barışık olma isteğim var. 
 
 
-Bu aralar nehirdeki akıntıya kapılmış bir karakteri canlandırıyoruz. Akıntının sürüklediği yerde hiddetli bir çağlayan mı yoksa durgun bir göl mü var bilmiyoruz. 
+Bu aralar nehirdeki akıntıya kapılmış bir karakteri canlandırıyoruz. Akıntının sürüklediği yerde hiddetli bir çağlayan mı yoksa durgun bir deniz mi var bilmiyoruz. 
 Ve biz, şu sıralar kürek çekmiyoruz. Belki çoğu zaman yaptığımız gibi kendimizi akıntıya bırakıyoruz.. Sandaldaki diğer kürekçiler belki bundan hoşlanmıyorlar, 
 belki yanlış yaptığımızı düşünüyorlar.. Kimi de akıntıya destek veriyor, bizi daha da hızlandırıyor.. Çabuk yoruluyoruz belki, sıkılıyoruz, umursamıyoruz.. 
 
@@ -21,7 +21,7 @@ Rahatlığımız ve akışına karışmamamız, ne olacaksa olsunculuğumuz buna
 
 Anlatmak, aktarmak ve yazmak istiyorum. Bunu yaparken de edebi bir değeri olsun istiyorum. 
 Dokunsun birilerinin gönlüne.. Bu yüzden istiyoruz tekrar hissetmek bazı şeyleri. Daha iyi karar verebilmeyi ve daha temiz kalabilmeyi.. 
-Bunlar eksikken bizde, edebi bir değer katamıyoruz kelimelere, hissiyat yükleyemiyoruz. Önce o hissi taşımalısın zira..      
+Bunlar eksikken bizde, edebi bir değer katamıyoruz kelimelere, hissiyat yükleyemiyoruz. Önce o hissi taşımalıyız ira..      
 
 
 >I don't wanna be anything other than what I've been tryin' to be lately,  
