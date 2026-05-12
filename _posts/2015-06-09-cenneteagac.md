@@ -22,9 +22,13 @@ Rabbim bizleri, bizi sevenleri ve sevdiklerimizi inşaallah cennetine kabul etti
 
 Belki de bu hadisteki kasıt budur. Her zikrimizde, Allah azze ve celleyi her yüceliğiyle anışımızda cennetimize bir ağaç dikiliyordur.
 Rabbim en iyisini bilendir. Bu halde ise cennetimize bol bol ağaç dikmek istemez miyiz?
+
+
 Subhanallahi ve bihamdihi, subhanallahil azim. (Sabah ve Akşam vakitleri girmeden önce zikretmenin faydalı olduğu söyleniyor.)
 
 Bismillah. Tevekkeltü alellah. La havle vela guvvete illa billahil aliyyil azim. ( Evden çıkarken.. )
+
+
 La ilahe illallahu vahdehu la şerike leh. Lehül mülkü velehül hamdü yuhyi ve yümit. Ve hüve hayyül la yemut, biyedihil hayr, ve hüve ala külli şey in gadir.
 (Gün içinde devamlı okuyalım, imanımız tazelenir.)
 
