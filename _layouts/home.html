@@ -2,26 +2,21 @@
 layout: default
 title: Ana Sayfa
 ---
-
 <header>
   <div class="baslik">{{ site.title }}</div>
   <p class="motto">an unmade bed of a man</p>
 </header>
-
 {% include sitemap.html %}
-
+{% assign filtered_posts = site.posts | where_exp: "post", "post.category != 'journal'" %}
+{% assign total = filtered_posts | size %}
 <ul class="post-list">
-  {% assign total = site.posts | size %}
-
-  {% for post in site.posts %}
+  {% for post in filtered_posts %}
     {% assign raw = total | minus: forloop.index0 %}
- 
     <li>
-      #
+      #{{ raw }}
       <a href="{{ post.url | relative_url }}">
         {% unless post.title == "" %}{{ post.title }}{% endunless %}
       </a>
     </li>
-	
   {% endfor %}
 </ul>
