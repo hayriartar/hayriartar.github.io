@@ -156,7 +156,9 @@ main {
 
 .home {  }
 
-.page-content {margin-top:.8rem; }
+.page-content {margin-top:.7rem; }
+
+.now-list-title { margin-top:2rem; }
 
 .game-table { margin-top: 1rem; width: 65%; }
 .game-table td:last-child, .game-table th:last-child { text-align: right; }
