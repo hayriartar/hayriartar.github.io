@@ -6,8 +6,9 @@ date:   2014-03-28
 ---
 
 >Hayat öyle bir şey ki bazen en başta kim olduğunu bile unutturuyor insana.  
-Bu da bazılarının sık sık sorduğu insan gerçekten değişir mi sorusunun cevabı oluyor sanırım.. 
-     
+Bu da bazılarının sık sık sorduğu insan gerçekten değişir mi sorusunun cevabı oluyor sanırım..  
+
+
 Sevdiğimiz insanların iyi ve kötü yönleri mutlaka var. 
 Peki biz sevdiklerimizi buna göre mi seçiyoruz? 
 Ya da şöyle sorayım; seveceklerimizi gerçekten biz mi seçiyoruz? 
