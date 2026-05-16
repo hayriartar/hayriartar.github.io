@@ -5,7 +5,7 @@ title: "Kardeşlik"
 categories: [blog]
 ---
 
-Bu gece, teorik ve pratik olarak dün -ki saat sıfırsıfıroniki'yi gösteriyor- hatırlanacak bir geceydi. 
+Bu gece, hatırlanacak bir geceydi. 
 Bildiğiniz ya da bilmediğiniz gibi Cuma ortanca abimizin izin günüydü. 
 Son dönem genelinde olduğu gibi bu Cuma akşamı da aile yemeğinde toplandık.  
   
