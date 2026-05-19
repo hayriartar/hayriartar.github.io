@@ -16,8 +16,8 @@ title: Movies to Remember
 | Man of Steel | 5 |
 | Meet Joe Black | 5 |
 | My Girl | 5 |
-| Pirates of Caribian Series | 5 |
-| Promethous | 5 |
+| Pirates of Caribbean Series | 5 |
+| Prometheus | 5 |
 | Remember Sunday | 5 |
 | Sanctum | 5 |
 | Stand By Me | 5 |
@@ -32,7 +32,7 @@ title: Movies to Remember
 | Blood Diamond | 4 |
 | Body of Lies | 4 |
 | Bir Zamanlar Anadoluda | 4 |
-| Donnie Darko| 3 |
+| Donnie Darko| 4 |
 | Finest Hours | 4 |
 | Good Will Hunting | 4 |
 | Hachiko: A Dogs Tale | 4 |
