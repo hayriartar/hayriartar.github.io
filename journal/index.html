@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Now
+title: Journal
 ---
 
 {% assign journals = site.posts | where_exp: "post", "post.categories contains 'journal'" | sort: "date" | reverse %}
@@ -16,11 +16,13 @@ title: Now
 
 <ul>
 {% for post in journals %}
+  {% if post.url != latest.url %}
   <li>
     <a href="{{ post.url | relative_url }}" class="archive-link">
       <span class="archive-title">{% unless post.title == "" %}{{ post.title }}{% endunless %}</span>
     </a>
   </li>
+  {% endif %}
 {% endfor %}
 </ul>
 

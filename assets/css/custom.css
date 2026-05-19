@@ -12,17 +12,17 @@ h1 {
   font-size: 1rem;
   margin-top:0;
   font-weight: 400;
-  color: #222;
+  color: #000;
 }
 
 h2, h3 {
   font-size: 1rem;
   font-weight: 400;
-  color: #222;
+  color: #000;
 }
 
 a {
-  color: #222;
+  color: #000;
   text-decoration: none;
   transition: color 0.2s ease;
 }
@@ -125,7 +125,7 @@ main {
 
 .journal-header .post-date { color: #faf9f5; transition: color 0.2s ease;  }
 
-.post-heading { margin:0;  }
+.post-heading {  margin:0;  }
 
 .post-date {  }
 .post-date:hover { color: #1a1a1a; }
