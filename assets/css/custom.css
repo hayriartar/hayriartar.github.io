@@ -125,7 +125,7 @@ main {
 
 .post-header { font-family: 'Geist', sans-serif; }
 
-.journal-header .post-date { font-family: 'Geist', sans-serif; color: #faf9f5; transition: color 0.2s ease;  }
+.journal-header .post-date { display:none; visibility: hidden;  font-family: 'Geist', sans-serif; color: #faf9f5; transition: color 0.2s ease;  }
 
 .post-heading {  font-family: 'Geist', sans-serif; margin:0;  }
 
