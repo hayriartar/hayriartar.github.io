@@ -110,7 +110,7 @@ main {
   margin-bottom:8rem;
 }
 
-.post-list li { padding: 2px 0px 4px 0px;  }
+.post-list li { color:#777; padding: 2px 0px 4px 0px;  }
 .post-list li:first-child { padding-top: 0; }
 
 /* -------------------- INDEX -------------------- */
