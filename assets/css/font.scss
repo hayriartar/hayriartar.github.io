@@ -1,8 +1,6 @@
 ---
 ---
 
-
-
 /* inter-regular - latin-ext */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -50,47 +48,4 @@
   font-style: italic;
   font-weight: 600;
   src: url('{{ "/assets/fonts/inter-v20-latin-ext-600italic.woff2" | relative_url }}') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-
-
-
-
-
-
-
-
-
-
-@font-face {
-  font-family: 'Lora';
-  src: url('{{ "/assets/fonts/lora-v35-latin-ext-regular.woff2" | relative_url }}') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Lora';
-  src: url('{{ "/assets/fonts/lora-v35-latin-ext-italic.woff2" | relative_url }}') format('woff2');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Lora';
-  src: url('{{ "/assets/fonts/lora-v35-latin-ext-600.woff2" | relative_url }}') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-@font-face {
-  font-family: 'Lora';
-  src: url('{{ "/assets/fonts/lora-v35-latin-ext-600italic.woff2" | relative_url }}') format('woff2');
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
 }
