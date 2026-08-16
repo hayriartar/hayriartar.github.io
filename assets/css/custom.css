@@ -135,7 +135,7 @@ main {
 
 .post-only .caption  {  display: block; margin-top: -29px; font-size: 1rem; color: #222; }
 
-.post-content { letter-spacing: 0.04em; color: #333; margin-bottom: 4rem; }
+.post-content { letter-spacing: 0.02em; color: #333; margin-bottom: 4rem; }
 
 .post-content > :first-child { margin-top: 0; }
 
