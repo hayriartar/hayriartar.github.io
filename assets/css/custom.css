@@ -56,7 +56,7 @@ p:has(a)::before {
 body {
   max-width: var(--body-width);
   margin: 0 auto;
-  padding-top:10vh;
+  padding-top:6vh;
   font-family: 'Geist', sans-serif;
   font-size: 0.875rem;
   color: #444;
@@ -78,11 +78,11 @@ header {
   margin-bottom:2rem;
 }
 
-.baslik { color:#000;  font-size: 1.5rem; font-weight: 600;}
+.baslik { margin: 0; color:#000;  font-size: 1.5rem; font-weight: 600;}
 .baslik a { }
 
 .motto {
-  margin: -0.5rem, 0 0 0;
+  argin: -0.5rem, 0 0 0;
   color: #777;
   text-decoration: underline;
   text-decoration-color:  rgba(255, 239, 68, 0.4); 
@@ -252,7 +252,7 @@ mark {
 
 @media (max-width: 600px) {
 
-body { margin: 0 2rem;  max-width: 100%; }
+body { margin: 0 1.5rem;  max-width: 100%; }
 .post-content img { max-width: 80vw; }
 .game-table { width: 80vw; }
 }
