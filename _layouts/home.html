@@ -3,15 +3,13 @@ layout: default
 title: Ana Sayfa
 ---
 <header>
-  <h1>{{ site.title }}</h1>
+    <h1>{{ site.title }}</h1>
 </header>
-{% include sitemap.html %}
-<ul class="post-list">
-  {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url | relative_url }}">
-          # {{ post.title }}
+
+<section class="post-list">
+    {% for post in site.posts %}
+        <a href="{{ post.url | relative_url }}" class="post-item">
+            W{{ post.date | date: "%V" }}. {{ post.title }}
         </a>
-      </li>
-   {% endfor %}
-</ul>
+    {% endfor %}
+</section>
