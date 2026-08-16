@@ -1,16 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap');
-html { overflow-y: scroll; font-size: 16px;  }
+html { overflow-y: scroll; font-size: 14px;  }
 html, body {   background-color: #faf9f5;    }
-:root {  --body-width: 60ch; }
+:root {  --body-width: 40ch; }
 
 /* -------------------- GLOBAL ATTS -------------------- */
 
 ::selection { background-color:rgba(255, 239, 68, 0.4); }
 
-strong, b { color:#000; font-weight: 400; }
 
 h1 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-top:0;
   font-weight: 600;
   color: #000;
@@ -57,10 +55,10 @@ body {
   max-width: var(--body-width);
   margin: 0 auto;
   padding-top:6vh;
-  font-family: 'Geist', sans-serif;
-  font-size: 0.9375rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
   color: #444;
-  line-height: 1.70;
+  line-height: 1.60;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -70,26 +68,8 @@ body {
 
 /* -------------------- HEADER -------------------- */
 
-header { 
-  display: flex;
-  flex-shrink: 0;
-  flex-direction: column;
-  padding: 0;
-  margin-bottom:0;
-}
-
-.baslik { font-family: 'Geist', sans-serif; margin: 0; color:#000;  font-size: 1.2rem; font-weight: 600;}
-.baslik a { }
-
-.motto { display:none; visibility:hidden;
-  font-family: 'Geist', sans-serif;
-  argin: -0.5rem, 0 0 0;
-  color: #777;
-  text-decoration: underline;
-  text-decoration-color:  rgba(255, 239, 68, 0.4); 
-  text-decoration-skip-ink: none;
-  text-decoration-thickness: .5em;
-  text-underline-offset: -.25em;
+header {
+    margin-bottom: 1.5rem; 
 }
 
 /* -------------------- MAIN -------------------- */
