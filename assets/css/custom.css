@@ -78,7 +78,7 @@ header {
   margin-bottom:2rem;
 }
 
-.baslik {  }
+.baslik {   font-size: 1rem; font-weight: 600;}
 .baslik a { }
 
 .motto {
@@ -135,7 +135,7 @@ main {
 
 .post-only .caption  {  display: block; margin-top: -29px; font-size: 1rem; color: #222; }
 
-.post-content { margin-bottom: 4rem; }
+.post-content { color: #444; margin-bottom: 4rem; }
 
 .post-content > :first-child { margin-top: 0; }
 
