@@ -75,7 +75,7 @@ header {
   flex-shrink: 0;
   flex-direction: column;
   padding: 0;
-  margin-bottom:2rem;
+  margin-bottom:0;
 }
 
 .baslik { font-family: 'Geist', sans-serif; margin: 0; color:#000;  font-size: 1.2rem; font-weight: 600;}
