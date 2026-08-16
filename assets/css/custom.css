@@ -135,7 +135,7 @@ main {
 
 .post-only .caption  {  display: block; margin-top: -29px; font-size: 1rem; color: #222; }
 
-.post-content { color: #444; margin-bottom: 4rem; }
+.post-content { letter-spacing: 0.06em; color: #333; margin-bottom: 4rem; }
 
 .post-content > :first-child { margin-top: 0; }
 
@@ -252,7 +252,7 @@ mark {
 
 @media (max-width: 600px) {
 
-body { margin: 0 2.2rem;  max-width: 100%; }
+body { margin: 0 2rem;  max-width: 100%; }
 .post-content img { max-width: 80vw; }
 .game-table { width: 80vw; }
 }
