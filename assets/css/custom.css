@@ -59,7 +59,7 @@ body {
   padding-top:10vh;
   font-family: 'Geist', sans-serif;
   font-size: 0.875rem;
-  color: #1a1a1a;
+  color: #444;
   line-height: 1.75;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -78,11 +78,11 @@ header {
   margin-bottom:2rem;
 }
 
-.baslik {   font-size: 1.5rem; font-weight: 600;}
+.baslik {   font-size: 1.5rem; font-weight: 500;}
 .baslik a { }
 
 .motto {
-  margin: 0;
+  margin: -0.5em, 0 0 0;
   color: #777;
   text-decoration: underline;
   text-decoration-color:  rgba(255, 239, 68, 0.4); 
