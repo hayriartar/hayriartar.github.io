@@ -3,18 +3,15 @@ layout: default
 title: Ana Sayfa
 ---
 <header>
-  <h1 class="baslik">{{ site.title }}</h1>
-  <span class="motto">an unmade bed of a man</span>
+  <h1>{{ site.title }}</h1>
 </header>
 {% include sitemap.html %}
 <ul class="post-list">
   {% for post in site.posts %}
-    {% unless post.categories contains 'journal' %}
       <li>
         <a href="{{ post.url | relative_url }}">
-          # {% unless post.title == "" %}{{ post.title }}{% endunless %}
+          # {{ post.title }}
         </a>
       </li>
-    {% endunless %}
-  {% endfor %}
+   {% endfor %}
 </ul>
