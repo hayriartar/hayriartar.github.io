@@ -58,7 +58,7 @@ body {
   margin: 0 auto;
   padding-top:6vh;
   font-family: 'Geist', sans-serif;
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: #444;
   line-height: 1.70;
   font-weight: 400;
@@ -116,7 +116,7 @@ main {
 
 .navbar {  margin-top:1rem; display: flex;  flex-direction: column; margin-bottom:50px; }
 .navbar li { list-style-type: none; }
-.navbar a { padding: 2px 0px 4px 0px;  font-size: 1rem;  }
+.navbar a { padding: 2px 0px 4px 0px;  font-size: 0.9375rem;  }
 .navbar a:first-child { padding-top: 0; }
 
 
