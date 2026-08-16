@@ -115,7 +115,7 @@ main {
 .post-list a { color: #777; }
 /* -------------------- INDEX -------------------- */
 
-.navbar {  margin-top:1rem; display: flex;  flex-direction: column; margin-bottom:50px; }
+.navbar {  argin-top:1rem; display: flex;  flex-direction: column; argin-bottom:50px; }
 .navbar li { list-style-type: none; }
 .navbar a { padding: 2px 0px 4px 0px;  font-size: 0.9375rem;  }
 .navbar a:first-child { padding-top: 0; }
