@@ -112,7 +112,7 @@ main {
 
 .post-list li { color:#777; padding: 2px 0px 4px 0px;  }
 .post-list li:first-child { padding-top: 0; }
-
+.post-list a { color: #777; }
 /* -------------------- INDEX -------------------- */
 
 .navbar {  margin-top:1rem; display: flex;  flex-direction: column; margin-bottom:50px; }
