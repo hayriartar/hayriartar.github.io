@@ -40,50 +40,44 @@ header {
 h1 {
     font-size: 1rem;
     font-weight: 600;
-    letter-spacing: 0.0em; 
+    letter-spacing: 5.0em; 
 }
 
-/* --- Yazı Listesi Alanı (Taşmayı Önleyen Yeni Sistem) --- */
 .post-list {
     display: flex;
     flex-direction: column;
-    gap: 0.4rem;
-    /* Listeyi sola doğru kendi marjı kadar genişleterek W11 için güvenli alan açıyoruz */
-    padding-left: 3rem; 
-    margin-left: -3rem; 
+    gap: 0.2rem;
 }
 
+/* Her bir satırı esnek yapıp position: relative yapıyoruz */
 .post-item {
     display: flex;
-    align-items: center; /* Dikeyde ortalama */
+    align-items: center;
     text-decoration: none;
-    color: inherit;
+    color: #2d2c2a;
     transition: opacity 0.2s ease;
-    width: 100%;
+    position: relative;
+    padding-left: 0; /* Ana dikey çizgi yazı başlığında kalacak */
+    margin-bottom: 0.4rem; /* Yazılar arası dikey boşluk */
 }
 
-.post-item:hover {
-    opacity: 0.5;
-}
-
+/* Sadece yazı başlığını kapsayan alan */
 .post-title {
     font-size: 0.9375rem;
     font-weight: 400;
 }
 
-/* W11 Sola Kaydırma (Artık absolute değil, esnek kutu içinde sabit genişlik) */
+/* Sol boşluğa kayan Hafta Numarası (W11) */
 .post-week {
-    width: 3rem; /* W11 için ayrılan yatay alan */
-    flex-shrink: 0; /* Alanın daralmasını engeller */
-    font-size: 0.8rem;
-    color: #8c8a84; 
+    position: absolute;
+    right: 100%; /* Başlığın sol sınırından geriye doğru yaslar */
+    margin-right: 1rem; /* Başlık ile arasında bırakılacak sol boşluk mesafesi */
+    font-size: 0.8rem; /* Bir tık daha küçük boyut */
+    color: #8c8a84; /* Daha soluk, gömülü bir renk */
     font-weight: 500;
-    white-space: nowrap;
-    
-    /* Milimetrik dikey hizalama değeriniz aynen korunuyor: */
-    transform: translateY(0.3px); 
+    white-space: nowrap; /* Alt satıra geçmesini engeller */
+    transform: translateY(0.2px); 
 }
-
 
 /* Satırın tamamına gelince hafif opaklık efekti */
 .post-item:hover {
