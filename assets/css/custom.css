@@ -93,6 +93,12 @@ h1 {
     font-weight: 400;
 }
 
+.post-custom-date {
+        margin-top: 1.6em;
+        color: #444;
+        display: block;
+}
+
 .back-nav {
     margin-top: 6rem; 
     padding-bottom: 2rem; 
@@ -153,6 +159,14 @@ h1 {
         top: 0;
     transform: translateY(0);
     }
+
+	
+.post-custom-date {
+        
+        font-size: 14px;
+}
+
+	
     .back-nav { 
         margin-top: 4rem; 
     }
