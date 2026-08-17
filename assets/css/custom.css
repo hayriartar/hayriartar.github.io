@@ -6,13 +6,13 @@
 
 html {
     font-size: 14px; 
-     width: 100%;
+    width: 100%;
     overflow-x: hidden; 
     scrollbar-gutter: stable; 
 }
 
 body {
-    font-family: 'Inter', -apple-system, sans-serif;
+    font-family: 'Geist', -apple-system, sans-serif;
     background-color: #f5f4f1;
     color: #000;
     font-size: 1rem;
@@ -79,7 +79,7 @@ h1 {
     font-size: 10px; 
     color:#666;
     font-weight: 400;
-    white-space: nowrap; /* Alt satıra geçmesini engeller */
+    white-space: nowrap; 
     top: 50%;
     transform: translateY(-50%);
 }
@@ -93,12 +93,12 @@ h1 {
 }
 
 .back-nav {
-    margin-top: 6rem; /* Yazı bittikten sonra butonla arasında bırakılacak geniş boşluk */
-    padding-bottom: 2rem; /* Sayfanın en alt sınırından bırakılacak boşluk */
+    margin-top: 6rem; 
+    padding-bottom: 2rem; 
     display: block;
 }
 
-/* İçerideki konteynerin hizalaması */
+
 .back-link-container {
     width: 100%;
 }
@@ -121,10 +121,10 @@ h1 {
 }
 @media (max-width: 600px) {
     body { 
-        padding: 2rem; /* Mobilde her taraftan eşit ve dengeli boşluk */
+        padding: 2rem; 
     }
     .back-nav { 
-        margin-top: 4rem; /* Mobilde yazı sonrası boşluğu biraz daralttık */
+        margin-top: 4rem; 
     }
     
     
