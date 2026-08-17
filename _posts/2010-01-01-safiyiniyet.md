@@ -2,7 +2,7 @@
 layout: post
 tags: []
 categories: [blog]
-date: 2010-01-01
+date: 2010-01-05
 title: 'Saf İyi Niyet'
 ---
 
