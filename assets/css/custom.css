@@ -124,6 +124,10 @@ h1 {
     body { 
         padding: 2rem; 
     }
+
+    header {
+    margin-left: 1rem; 
+}
     .back-nav { 
         margin-top: 4rem; 
     }
