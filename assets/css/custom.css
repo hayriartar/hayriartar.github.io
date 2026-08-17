@@ -73,7 +73,7 @@ h1 {
     right: 100%; /* Başlığın sol sınırından geriye doğru yaslar */
     margin-right: 1rem; /* Başlık ile arasında bırakılacak sol boşluk mesafesi */
     font-size: 0.8rem; /* Bir tık daha küçük boyut */
-    color: #8c8a84; /* Daha soluk, gömülü bir renk */
+    opacity: 0.6;
     font-weight: 500;
     white-space: nowrap; /* Alt satıra geçmesini engeller */
     transform: translateY(0.2px); 
