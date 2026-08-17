@@ -46,18 +46,40 @@ h1 {
     gap: 0.2rem;
 }
 
+/* Her bir satırı esnek yapıp position: relative yapıyoruz */
 .post-item {
-    display: block;
+    display: flex;
+    align-items: baseline;
     text-decoration: none;
     color: inherit;
-    font-size: 0.9375rem;
-    font-weight: 400;
     transition: opacity 0.2s ease;
+    position: relative;
+    padding-left: 0; /* Ana dikey çizgi yazı başlığında kalacak */
+    margin-bottom: 0.4rem; /* Yazılar arası dikey boşluk */
 }
 
-.post-item:hover {
-    opacity: 0.5;
+/* Sadece yazı başlığını kapsayan alan */
+.post-title {
+    font-size: 0.9375rem;
+    font-weight: 400;
 }
+
+/* Sol boşluğa kayan Hafta Numarası (W11) */
+.post-week {
+    position: absolute;
+    right: 100%; /* Başlığın sol sınırından geriye doğru yaslar */
+    margin-right: 1.5rem; /* Başlık ile arasında bırakılacak sol boşluk mesafesi */
+    font-size: 0.8rem; /* Bir tık daha küçük boyut */
+    color: #8c8a84; /* Daha soluk, gömülü bir renk */
+    font-weight: 500;
+    white-space: nowrap; /* Alt satıra geçmesini engeller */
+}
+
+/* Satırın tamamına gelince hafif opaklık efekti */
+.post-item:hover {
+    opacity: 0.6;
+}
+
 
 .post-content p {
     margin-bottom: 1rem;
@@ -108,6 +130,17 @@ h1 {
     }
     .back-nav { 
         bottom: 2rem; 
-        max-width: calc(100% - 4rem); /* Mobil ekran genişliğine göre buton alanını daraltır */
+        max-width: calc(100% - 4rem); 
+    }
+    
+    /* Mobil ekranlarda sola taşma yerine yan yana normal listeleme düzenine döner */
+    .post-item {
+        display: flex;
+        gap: 0.8rem;
+    }
+    .post-week {
+        position: static;
+        margin-right: 0;
+        font-size: 0.85rem;
     }
 }
