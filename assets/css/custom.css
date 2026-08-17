@@ -49,7 +49,7 @@ h1 {
 /* Her bir satırı esnek yapıp position: relative yapıyoruz */
 .post-item {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     text-decoration: none;
     color: inherit;
     transition: opacity 0.2s ease;
@@ -68,7 +68,7 @@ h1 {
 .post-week {
     position: absolute;
     right: 100%; /* Başlığın sol sınırından geriye doğru yaslar */
-    margin-right: 1.5rem; /* Başlık ile arasında bırakılacak sol boşluk mesafesi */
+    margin-right: 1rem; /* Başlık ile arasında bırakılacak sol boşluk mesafesi */
     font-size: 0.8rem; /* Bir tık daha küçük boyut */
     color: #8c8a84; /* Daha soluk, gömülü bir renk */
     font-weight: 500;
