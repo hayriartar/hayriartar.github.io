@@ -6,7 +6,10 @@ date:   2016-04-30
 ---
 
 
-Annem çocukluk yaşlarında Nişantaşında Vali konağında çalışmış örneğin, şimdi oralarda dolaşınca bunu düşünerek dolaşmak var, bir de hiç hatırası olmadan boş boş dolaşmak..
+Annem çocukluk yıllarında Nişantaşı Vali Konağı'nda çalışmış..
+
+
+Bugün o sokaklarda bunu düşünerek yürümek var, bir de hiç hatırası olmadan öylece dolaşmak..
 
 
 
