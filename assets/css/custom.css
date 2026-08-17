@@ -76,11 +76,12 @@ h1 {
     position: absolute;
     right: 100%;
     margin-right: 1rem; 
-    font-size: 0.7142rem; 
+    font-size: 10px; 
     color:#666;
     font-weight: 400;
     white-space: nowrap; /* Alt satıra geçmesini engeller */
-    transform: translateY(0.2px); 
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
