@@ -34,10 +34,11 @@ main {
 }
 
 img {
-    width: 90%;
+    width: 100%;
     max-width: 400px;
     padding: 5px;
 	border: 1px solid #eee;
+	border-radius: 5px;
 }
 
 header {
