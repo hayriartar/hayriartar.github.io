@@ -6,7 +6,9 @@
 
 html {
     font-size: 14px; 
-    height: 100%;
+     width: 100%;
+    overflow-x: hidden; 
+    max-width: 100vw;
 }
 
 body {
@@ -26,6 +28,7 @@ body {
 }
 
 main {
+    width: 100%;
     max-width: 400px;
     margin: 0 auto;
 }
@@ -73,7 +76,7 @@ h1 {
     color: #8c8a84; /* Daha soluk, gömülü bir renk */
     font-weight: 500;
     white-space: nowrap; /* Alt satıra geçmesini engeller */
-    transform: translateY(1px); 
+    transform: translateY(0.5px); 
 }
 
 /* Satırın tamamına gelince hafif opaklık efekti */
@@ -117,8 +120,8 @@ h1 {
     margin-right: 0.5rem;
 }
 @media (max-width: 600px) {
-   body { 
-        padding: 2rem 2rem 4rem 2rem; 
+    body { 
+        padding: 2rem; /* Mobilde her taraftan eşit ve dengeli boşluk */
     }
     .back-nav { 
         margin-top: 4rem; /* Mobilde yazı sonrası boşluğu biraz daralttık */
