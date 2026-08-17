@@ -8,7 +8,7 @@ layout: default
 
     <article class="post-content">
     {{ content }}
-    <p class="post-custom-date">{{ page.date | date: "%B" }} '{{ page.date | date: "%y" }}</p>
+    <p class="post-custom-date">Week {{ page.date | date: "%W, %Y" }}</p>
 </article>
 
 <style>
