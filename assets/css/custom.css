@@ -13,7 +13,6 @@ html {
 
 body {
     font-family: 'Inter', -apple-system, sans-serif;
-    ont-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
     background-color: #f1f1f1;
     color: #000;
     font-size: 1rem;
@@ -131,6 +130,11 @@ h1 {
          padding: 2rem;
         padding-top:6rem;
             }
+			
+			h1 {
+    font-size: 1.1rem;
+     
+}
 
   .post-item {
         display: flex;
