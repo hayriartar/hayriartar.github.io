@@ -122,8 +122,8 @@ h1 {
 }
 @media (max-width: 600px) {
     body { 
-         padding: 6rem;
-        padding-top:10rem;
+         padding: 4rem;
+        padding-top:6rem;
     }
 
   
