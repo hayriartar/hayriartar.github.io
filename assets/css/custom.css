@@ -76,7 +76,7 @@ h1 {
     color: #8c8a84; /* Daha soluk, gömülü bir renk */
     font-weight: 500;
     white-space: nowrap; /* Alt satıra geçmesini engeller */
-    transform: translateY(0.5px); 
+    transform: translateY(0.2px); 
 }
 
 /* Satırın tamamına gelince hafif opaklık efekti */
