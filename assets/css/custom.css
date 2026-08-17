@@ -36,7 +36,7 @@ main {
 img {
     width: 100%;
     max-width: 400px;
-    padding: 5px;
+	padding: 1px;
 	border: 1px solid #eee;
 	border-radius: 5px;
 }
