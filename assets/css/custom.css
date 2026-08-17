@@ -126,7 +126,20 @@ h1 {
         padding-top:6rem;
     }
 
-  
+  .post-item {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        position: static; 
+    }
+
+    
+    .post-week {
+        position: static; 
+        margin-right: 1rem;
+        transform: none; 
+        flex-shrink: 0; 
+    }
     .back-nav { 
         margin-top: 4rem; 
     }
