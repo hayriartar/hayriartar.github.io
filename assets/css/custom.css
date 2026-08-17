@@ -129,7 +129,6 @@ h1 {
   .post-item {
         display: flex;
         flex-direction: row;
-        align-items: baseline;
         position: static; 
     }
 
@@ -137,7 +136,6 @@ h1 {
     .post-week {
         position: static; 
         margin-right: 1rem;
-        transform: none; 
         flex-shrink: 0; 
     }
     .back-nav { 
