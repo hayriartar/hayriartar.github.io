@@ -127,14 +127,5 @@ h1 {
         margin-top: 4rem; /* Mobilde yazı sonrası boşluğu biraz daralttık */
     }
     
-    /* Mobil ekranlarda sola taşma yerine yan yana normal listeleme düzenine döner */
-    .post-item {
-        display: flex;
-        gap: 0.8rem;
-    }
-    .post-week {
-        position: static;
-        margin-right: 0;
-        font-size: 0.85rem;
-    }
+    
 }
