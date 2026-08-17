@@ -12,9 +12,9 @@ html {
 }
 
 body {
-    ont-family: 'Inter', -apple-system, sans-serif;
-    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
-    background-color: #f5f4f1;
+    font-family: 'Inter', -apple-system, sans-serif;
+    ont-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    background-color: #f1f1f1;
     color: #000;
     font-size: 1rem;
     line-height: 1.6;
