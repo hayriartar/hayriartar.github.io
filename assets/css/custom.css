@@ -81,6 +81,7 @@ h1 {
     color:#666;
     font-weight: 400;
     white-space: nowrap; 
+    line-height: 2;
     top: 50%;
     transform: translateY(-50%);
 }
