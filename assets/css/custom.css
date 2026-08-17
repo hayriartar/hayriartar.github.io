@@ -136,7 +136,8 @@ h1 {
 
     
     .post-week {
-        width: 4ch;
+        width: 3ch;
+        font-size:14px;
         position: static; 
         margin-right: 1rem;
         flex-shrink: 0; 
