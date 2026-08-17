@@ -14,7 +14,7 @@ html {
 body {
     font-family: 'Inter', -apple-system, sans-serif;
     background-color: #f5f4f1;
-    color: #1a1a1a;
+    color: #000;
     font-size: 1rem;
     line-height: 1.6;
     padding: 4rem;
@@ -49,46 +49,45 @@ h1 {
     gap: 0.2rem;
 }
 
-/* Her bir satırı esnek yapıp position: relative yapıyoruz */
+
 .post-item {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #2d2c2a;
+    color: #000;
     transition: opacity 0.2s ease;
     position: relative;
-    padding-left: 0; /* Ana dikey çizgi yazı başlığında kalacak */
-    margin-bottom: 0.4rem; /* Yazılar arası dikey boşluk */
+    padding-left: 0; 
+    margin-bottom: 0.4rem; 
 }
 
-/* Sadece yazı başlığını kapsayan alan */
+.post-item:hover {
+   color:#666;
+}
+
+
 .post-title {
-    font-size: 0.9375rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
-/* Sol boşluğa kayan Hafta Numarası (W11) */
+
 .post-week {
     position: absolute;
-    right: 100%; /* Başlığın sol sınırından geriye doğru yaslar */
-    margin-right: 1rem; /* Başlık ile arasında bırakılacak sol boşluk mesafesi */
-    font-size: 0.8rem; /* Bir tık daha küçük boyut */
-    opacity: 0.6;
-    font-weight: 500;
+    right: 100%;
+    margin-right: 1rem; 
+    font-size: 0.7rem; 
+    color:#666;
+    font-weight: 400;
     white-space: nowrap; /* Alt satıra geçmesini engeller */
     transform: translateY(0.2px); 
-}
-
-/* Satırın tamamına gelince hafif opaklık efekti */
-.post-item:hover {
-    opacity: 0.6;
 }
 
 
 .post-content p {
     margin-bottom: 1rem;
-    color: #2d2c2a;
-    font-size: 0.9375rem;
+    color: #000;
+    font-size: 1rem;
     font-weight: 400;
 }
 
