@@ -121,11 +121,15 @@ h1 {
     margin-right: 0.5rem;
 }
 @media (max-width: 600px) {
+
+    html {
+    font-size: 14px; 
+    }
+    
     body { 
          padding: 3rem;
         padding-top:6rem;
-        font-size: 14px;
-    }
+            }
 
   .post-item {
         display: flex;
