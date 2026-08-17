@@ -69,8 +69,10 @@ h1 {
 .back-nav {
     position: fixed;
     bottom: 4rem;
-    left: 4rem;
-    right: 4rem;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 100%;
+    max-width: 400px; 
     z-index: 10;
     pointer-events: none;
 }
@@ -105,8 +107,7 @@ h1 {
         padding: 2rem 2rem 6rem 2rem; 
     }
     .back-nav { 
-        left: 2rem; 
-        right: 2rem; 
         bottom: 2rem; 
+        max-width: calc(100% - 4rem); /* Mobil ekran genişliğine göre buton alanını daraltır */
     }
 }
