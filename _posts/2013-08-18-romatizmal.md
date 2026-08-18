@@ -5,13 +5,12 @@ title:  Romatizmal Yenilikler
 date:   2013-08-18
 ---
 
-Eklem ağrılarım için hastaneye gittim.
-Kan tahlili yaptırdık. 
-Romatizmal şikayetler ancak iltihaplı değilmiş.
+Eklem ağrılarım için hastaneye gittim bugün. Kan tahlili yaptırdık. 
+Romatizmal şikayetler ancak iltihaplı değil. İleride dönebilirmiş tabii. 
 
-Bol bol spor yapıp eklemlerini ve vücut direncini kuvvetlendirmelisin dedi doktor bey. 
-Bir hap bir krem verdi. Ağrı kesici niyetine. 
+Bol bol spor yapıp eklemlerimi ve vücut direncimi kuvvetlendirmelimişim. 
+Bir hap bir de krem verdi ağrı kesici niyetine. 
 
-Yine devam ederse büyük hastanelere gidip romatoloji bölümünde ileri tetkikler yaptırman iyi olur dedi..
+Yine devam ederse romatoloji bölümünde ileri tetkikler yaptırmam gerekiyormuş. 
 
 
