@@ -168,7 +168,7 @@ ul.page-list li a:hover {
   color: #666;
 }
 
-.page-table { margin-top: 1rem; width: 65%; }
+.page-table { margin-top: 1rem; width: 100%; }
 .page-table td:last-child, .page-table th:last-child { text-align: right; }
 
 
