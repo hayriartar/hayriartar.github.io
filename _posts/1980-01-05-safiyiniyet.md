@@ -17,7 +17,7 @@ Unuttuğumuzda veya yeterince çabalamadığımızda hatırlatıverin.
 
 
 <style>
-.custom-post-date {
+.post-custom-date {
   display: none;
 }
 </style>
