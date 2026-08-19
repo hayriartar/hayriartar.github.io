@@ -7,7 +7,6 @@ category: pages
 
 İyi bir insan olma yolunda daha iyi bir yetiştirici düşünemediğim anneciğimin öğretileri sonucunda rehber edindiğim üç kelime.  
 
-Saf iyi niyet. 
 
 İnsanız. Her zaman olmuyor. Çabalıyoruz.  
 Unuttuğumuzda veya yeterince çabalamadığımızda hatırlatıverin. 
