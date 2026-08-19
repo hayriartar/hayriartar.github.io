@@ -9,10 +9,11 @@ title: Ana Sayfa
 
     <section class="post-list">
         {% for post in site.posts %}
-            <a href="{{ post.url | relative_url }}" class="post-item">
-                <span class="post-week">W{{ post.date | date: "%V" }}</span>
-                <span class="post-title">{{ post.title }}</span>
-            </a>
+            {% unless post.category == 'pages' %}
+                <a href="{{ post.url | relative_url }}" class="post-item">
+                    <span class="post-week">W{{ post.date | date: "%V" }}</span>
+                    <span class="post-title">{{ post.title }}</span>
+                </a>
+            {% endunless %}
         {% endfor %}
     </section>
-

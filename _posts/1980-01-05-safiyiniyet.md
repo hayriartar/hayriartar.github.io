@@ -2,7 +2,7 @@
 layout: post
 tags: []
 categories: [blog]
-date: 2010-01-05
+date: 1980-01-05
 title: 'Saf İyi Niyet'
 ---
 
@@ -13,6 +13,6 @@ Allah ve Rasulünden sonra..
 Saf iyi niyet. 
 
 İnsanız. Her zaman olmuyor. Çabalıyoruz.  
-Unutursak hatırlatın. 
+Unuttuğumuzda veya yeterince çabalamadığımızda hatırlatıverin. 
 
 
