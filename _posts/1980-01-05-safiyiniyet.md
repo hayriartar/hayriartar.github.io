@@ -16,3 +16,8 @@ Saf iyi niyet.
 Unuttuğumuzda veya yeterince çabalamadığımızda hatırlatıverin. 
 
 
+<style>
+.custom-post-date {
+  display: none;
+}
+</style>
