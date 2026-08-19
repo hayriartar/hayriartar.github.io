@@ -2,11 +2,9 @@
 layout: post
 tags: []
 categories: [pages]
-date: 1980-01-05
+date: 2100-01-05
 title: 'Saf İyi Niyet'
 ---
-
-Allah ve Rasulünden sonra..  
 
 İyi bir insan olma yolunda daha iyi bir yetiştirici düşünemediğim anneciğimin öğretileri sonucunda rehber edindiğim üç kelime.  
 
