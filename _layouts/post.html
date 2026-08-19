@@ -14,9 +14,13 @@ layout: default
 
 <nav class="back-nav">
     <div class="back-link-container">
-        <a href="{{ '/' | relative_url }}" class="back-link">
-            <span class="back-arrow">←</span> 
-        </a>
+        {% if page.categories contains "pages" %}
+            <a href="{{ 'index' | post_url | relative_url }}" class="back-link">
+        {% else %}
+            <a href="{{ '/' | relative_url }}" class="back-link">
+        {% endif %}
+                <span class="back-arrow">←</span> 
+            </a>
     </div>
 </nav>
 
