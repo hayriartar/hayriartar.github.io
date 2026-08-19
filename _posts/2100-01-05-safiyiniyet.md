@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: []
-categories: [pages]
+categories: pages
 date: 2100-01-05
 title: 'Saf İyi Niyet'
 ---
