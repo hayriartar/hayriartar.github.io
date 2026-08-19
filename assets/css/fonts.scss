@@ -3,7 +3,7 @@
 
 /* inter-regular - latin-ext */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: block; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -11,7 +11,7 @@
 }
 /* inter-italic - latin-ext */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: block; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Inter';
   font-style: italic;
   font-weight: 400;
@@ -19,7 +19,7 @@
 }
 /* inter-500 - latin-ext */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: block; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -27,7 +27,7 @@
 }
 /* inter-500italic - latin-ext */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: block; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Inter';
   font-style: italic;
   font-weight: 500;
@@ -35,7 +35,7 @@
 }
 /* inter-600 - latin-ext */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: block; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
@@ -43,7 +43,7 @@
 }
 /* inter-600italic - latin-ext */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: block; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Inter';
   font-style: italic;
   font-weight: 600;

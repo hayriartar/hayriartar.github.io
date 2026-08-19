@@ -33,7 +33,16 @@ main {
     margin: 0 auto;
 }
 
-img{ max-width: 400px; padding: 4px; }
+
+img {
+    width: 100%;
+    max-width: 400px;
+	padding: 0;
+	overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
 
 header {
     margin-bottom: 1.5rem; 
@@ -93,6 +102,12 @@ h1 {
     color: #000;
     font-size: 1rem;
     font-weight: 400;
+}
+
+.post-custom-date {
+        margin-top: 1.6em;
+        color: #666;
+        display: block;
 }
 
 .back-nav {
@@ -155,6 +170,14 @@ h1 {
         top: 0;
     transform: translateY(0);
     }
+
+	
+.post-custom-date {
+        
+        font-size: 14px;
+}
+
+	
     .back-nav { 
         margin-top: 4rem; 
     }

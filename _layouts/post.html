@@ -7,7 +7,8 @@ layout: default
     </header>
 
     <article class="post-content">
-        {{ content }}
+    {{ content }}
+    <p class="post-custom-date">Week {{ page.date | date: "%V, %Y" }}</p>
     </article>
 
 
