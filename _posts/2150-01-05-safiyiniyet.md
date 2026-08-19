@@ -2,7 +2,7 @@
 layout: post
 title: 'Saf İyi Niyet'
 date: 2150-01-05
-categories: pages
+category: pages
 ---
 
 İyi bir insan olma yolunda daha iyi bir yetiştirici düşünemediğim anneciğimin öğretileri sonucunda rehber edindiğim üç kelime.  
