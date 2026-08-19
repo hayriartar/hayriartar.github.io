@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: []
-categories: [blog]
+categories: [pages]
 date: 1980-01-05
 title: 'Saf İyi Niyet'
 ---
