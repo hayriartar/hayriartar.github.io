@@ -11,7 +11,7 @@ title: Ana Sayfa
         {% for post in site.posts %}
             {% unless post.category == 'pages' %}
                 <a href="{{ post.url | relative_url }}" class="post-item">
-                    <span class="post-week">Y{{ post.date | date: "%y" }}</span>
+                    <span class="post-week">W{{ post.date | date: "%V" }}</span>
                     <span class="post-title">{{ post.title }}</span>
                 </a>
             {% endunless %}
