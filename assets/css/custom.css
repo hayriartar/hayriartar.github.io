@@ -34,9 +34,9 @@ main {
 }
 
 a {
+	color: #000;
     -webkit-tap-highlight-color: transparent;
 }
-
 
 img {
     width: 100%;
@@ -47,7 +47,6 @@ img {
 	border-radius: 5px;
 }
 
-
 header {
     margin-bottom: 1.5rem; 
 }
@@ -55,7 +54,6 @@ header {
 h1 {
     font-size: 1rem;
     font-weight: 600;
-    letter-spacing: 0em; 
 }
 
 .post-list {
@@ -63,7 +61,6 @@ h1 {
     flex-direction: column;
     gap: 0.2rem;
 }
-
 
 .post-item {
     display: flex;
@@ -77,15 +74,13 @@ h1 {
 }
 
 .post-item:hover {
-   color:#666;
+    color:#666;
 }
-
 
 .post-title {
     font-size: 1rem;
     font-weight: 400;
 }
-
 
 .post-week {
     position: absolute;
@@ -100,27 +95,22 @@ h1 {
     transform: translateY(-50%);
 }
 
-
 .post-content p {
     margin-bottom: 1rem;
     color: #222;
-    font-size: 1rem;
-    font-weight: 400;
 }
 
 .post-custom-date {
-        margin-top: 1.6em;
-        color: #666;
-        display: block;
+    margin-top: 1.6em;
+    color: #666;
+    display: block;
 }
-
 
 .back-nav {
     margin-top: 6rem; 
     padding-bottom: 2rem; 
     display: block;
 }
-
 
 .back-link-container {
     width: 100%;
@@ -143,79 +133,60 @@ h1 {
     margin-right: 0.5rem;
 }
 
-
 ul.page-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
 }
 
 ul.page-list li {
-  margin-bottom: 0.4rem;
+    margin-bottom: 0.4rem;
 }
 
 ul.page-list li a {
-  display: inline-block;
-  color: #000;
-  text-decoration: none;
-  transition: color 0.2s ease;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 ul.page-list li a:hover {
-  color: #666;
+    color: #666;
 }
 
-.page-table { margin-top: 1rem; width: 100%; }
+.page-table { width: 100%; }
 .page-table td:last-child, .page-table th:last-child { text-align: right; }
 
 
 @media (max-width: 600px) {
 
-    html {
-    font-size: 14px; 
-    }
+    html { font-size: 14px; }
     
-    body { 
-         padding: 2rem;
-        padding-top:6rem;
-            }
+    body { padding: 6rem 2rem 2rem 2rem; }
 			
-			h1 {
-    font-size: 1.1rem;
-     
+	h1 { font-size: 1.1rem; }
+
+.post-item {
+    display: flex;
+    flex-direction: row;
+    position: static; 
+    align-items: baseline;
 }
 
-  .post-item {
-        display: flex;
-        flex-direction: row;
-        position: static; 
-      align-items: baseline;
-    }
-
-    
-    .post-week {
-        width: 3ch;
-        font-size:14px;
-        position: static; 
-        margin-right: 1rem;
-        flex-shrink: 0; 
-        top: 0;
+.post-week {
+    width: 3ch;
+    font-size:14px;
+    position: static; 
+    margin-right: 1rem;
+    flex-shrink: 0; 
+    top: 0;
     transform: translateY(0);
-    }
-
-	
-.post-custom-date {
-        
-        font-size: 14px;
 }
 
-	
-    .back-nav { 
-        margin-top: 4rem; 
-    }
-    
-    
+.post-custom-date { font-size: 14px; }
+
+.back-nav { margin-top: 4rem; }
+     
 }
