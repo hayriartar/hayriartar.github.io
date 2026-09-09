@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Saf İyi Niyet'
-date: 2150-01-05
+date: 2022-08-05
 category: pages
 ---
 
