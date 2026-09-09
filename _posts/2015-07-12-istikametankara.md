@@ -6,10 +6,11 @@ date:   2015-07-12
 ---
 
 
-Yemin törenim oldu bu sabah. Acemiliğimizi bitirmiş olduk. Kütahya'nın havası gelgitliydi. Güneşli bir havada aniden yağmur bastırabiliyordu. Sabahları sisli ve soğuk geçiyor, sonrasında güneş oldukça yakıyordu.
+Yemin törenim oldu bu sabah. Acemiliğimizi bitirmiş olduk. Kütahya bize bir günde dört mevsimi yaşatıyordu..
 
 
-Bölüğümüzde 359. Ksd olarak genel itibariyle epey rahattık. Eğitimler, spor, yürüyüş ve içtimalar yorucu olsa da diğer bölüklerle karşılaştığımızda sayı ve süre olarak epey avantajlıydık. Bölük komutanlarımız da diğer bölüklere göre gayet iyiydi. Zaten bölüğümüz sosyete bölüğü olarak geçiyormuş ortamlarda. 
+359. Ksd olarak geçiyor dönemimiz. Yine burada da nasipliyiz ki Sosyete Bölüğü'ne düştük. Eğitimler, spor, yürüyüş ve içtimalar yorucu olsa da 
 
+birlik içinde diğer bölüklere nazaran çok çok daha rahattık. Bölük komutanlarımız genç yaşlarına rağmen çok babacan adamlardı.
 
 Ustalık için Ankara'ya geçeceğiz. Ne kadar rahat olsak da askerliğin sıkıntılı yönlerini de deneyimlemiş olduk elbette. 
