@@ -8,8 +8,8 @@ category: pages
 İyi bir insan olma yolunda daha iyi bir yetiştirici düşünemediğim anneciğimin öğretileri sonucunda rehber edindiğim üç kelime.  
 
 
-İnsanız. Her zaman olmuyor. Çabalıyoruz.  
-Unuttuğumuzda veya yeterince çabalamadığımızda hatırlatıverin. 
+Tabii ki insanız. Her zaman beceremesek de çabalıyoruz.  
+Unuttuğumuzda veya yeterince çabalamadığımızda hatırlatırsanız seviniriz. 
 
 
 <style>
