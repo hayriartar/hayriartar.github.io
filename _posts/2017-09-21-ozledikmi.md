@@ -11,6 +11,5 @@ Hatırlıyor muyuz eskiden kim olduğumuzu?
 
 Olduğumuz kişiyi terk mi ettik? Değiştik mi yoksa geliştik mi?
 
-Bir Düşünün!
 
 
